@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="theme">\t\t  谨以此:\n\n纪念我JAVA小学期</string>
+    <string name="title_start">开始游戏</string>
+    <string name="title_set">游戏设置</string>
+    <string name="title_about">关于游戏</string>
+    <string name="title_blueTooth">蓝牙对战</string>
+    <string name="title_exit">退出游戏</string>
+    <string name="app_name">连连看</string>
+    <string name="score">得分：</string>
+    <string name="startgame">开始</string>
+    <string name="refresh">重排</string>
+    <string name="exit">退出</string>
+    <string name="exit_title">离开</string>
+    <string name="del_title">删除</string>
+    <string name="exit_msg">确定要离开吗？</string>
+    <string name="del_msg">确定要删除吗？</string>
+    <string name="del_ok">删除记录成功！</string>
+    <string name="ok_btn">确定</string>
+    <string name="cancel_btn">取消</string>
+    <string name="notime_msg">快点哦！剩余时间\n不多了^_^</string>
+    <string name="next">\n\t胜利!第</string>
+    <string name="overnotice">时间耗尽,唉！输了 :(\n得分"</string>
+    <string name="exitnotice">回主界面，再按一次退出游戏！</string>
+    <string name="isDeadNotice">无图可以消除\n重新排列！</string>
+    <string name="recovery_title">恢复</string>
+    <string name="recovery_msg">是否恢复游戏默认设置？</string>
+    <string name="recovery_ok">恢复游戏默认设置成功！</string>
+    <string name="save_title">保存</string>
+    <string name="save_msg">\n是否保存自定义设置？</string>
+    <string name="save_ok">保存设置成功！</string>
+    <string name="victory_title">哇~恭喜</string>
+    <string name="victory_msg">新记录诞生了。\n输入您的大名\n</string>
+    <string name="tome_title">联系我们</string>
+    <string name="tome_msg">请提出您宝贵的意见，我们将及时改正！\n(点击会发送短信，不收取任何费用！)</string>
+    <string name="tome_ok">感谢您的参与，\n我们会更加努力！</string>
+    <string name="tofriend_title">分享给好友</string>
+    <string name="tofriend_msg">输入您的好友手机号码，如：15260168797。多个人用空格分隔开来！\n(点击会发送短信，不收取任何费用！)</string>
+    <string name="tofriend_ok">谢谢支持哦，\n玩得愉快！</string>
+    <string name="safe_msg">(点击会发送短信，不收取任何费用！)</string>
+    <string name="tofriend_notice">我正在玩哟哟连连看游戏，\n我的最高分是</string>
+    <string name="msg_error">消息发送失败！！</string> 
+    <string name="ctrl_title">操作</string>
+    <string name="error">提示</string>
+    <string name="unable">道具已使用过！</string>
+    <string name="no_msg">**************************</string>
+    <string-array name="menu">
+    	<item>声音设置</item>
+    	<item>震动设置</item>
+    	<item>关卡选择</item>
+    	<item>风格设置</item>
+    	<item>恢复默认</item>
+    	<item>高分排行</item>
+    	<item>清除排行</item>
+    	<item>分享游戏</item>
+    	<item>联系我们</item>
+    	<item>游戏规则</item>
+    	<item>保存退出</item>
+    </string-array>
+    <string name="music">声音设置</string>
+    <string-array name="musicItem">
+    	<item>打开音效</item>
+    	<item>关闭音效</item>
+    </string-array>
+    <string name="vibrator">震动设置</string>
+    <string-array name="vibratorItem">
+    	<item>打开震动</item>
+    	<item>关闭震动</item>
+    </string-array>
+    <string name="count">关卡选择</string>
+    <string-array name="countItem">
+    	<item>第一关</item>
+    	<item>第二关</item>
+    	<item>第三关</item>
+    	<item>第四关</item>
+    </string-array>
+   	 <string name="style">风格设置</string>
+    <string-array name="styleItem">
+    	<item>默认风格</item>
+    	<item>卡通表情</item>
+    </string-array>
+    <string name="send">发送</string>
+    <string name="start">开始</string>
+    
+    <!-- Options Menu -->
+    <string name="connect">连接设备</string>
+    <string name="discoverable">启动蓝牙</string>
+    
+</resources>
