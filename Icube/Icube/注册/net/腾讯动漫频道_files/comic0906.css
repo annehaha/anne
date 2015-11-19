@@ -1,0 +1,286 @@
+body{margin:0;padding:0;background-color:#FFF;color:#333;font-size:12px;}
+form,input,select,ul,li,ol,p,dl,dt,dd,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+
+p{text-indent:0;}
+img{border:none;}
+ul,li,ol,dl,dt,dd{list-style:none;}
+
+a{color:#333;text-decoration: none;}
+a:hover{color:#ed1b23;text-decoration: underline;}
+
+.line_h_16{line-height:16px;}
+.line_h_18{line-height:18px;}
+.line_h_20{line-height:20px;}
+.line_h_21{line-height:21px;}
+.line_h_22{line-height:22px;}
+.line_h_24{line-height:24px;}
+.line_h_26{line-height:26px;}
+
+.text_ind{text-indent:2em;}
+.font_s_14{font-size:14px;}
+.font_s_12{font-size:12px;}
+.font_w_n{font-weight:normal;}
+.font_w_b{font-weight:bold;}
+
+.float_l{float:left;}
+.float_r{float:right;}
+
+.text_l{text-align:left}
+.text_r{text-align:right}
+.text_c{text-align:center}
+
+.dis{display:block;}
+.undis{display:none;}
+
+/* CSS¿Õ°× */
+.box_hr12,.box_hr11,.box_hr3,.box_hr6,.box_hr8,.box_hr10,.box_hr13{margin:0 auto;font-size:0;line-height:0;clear:both;}
+.box_hr11{height:11px;}
+.box_hr12{height:12px;}
+.box_hr3{height:3px;}
+.box_hr6{height:6px;}
+.box_hr8{height:8px;}
+.box_hr10{height:10px;}
+.box_hr13{height:13px;}
+
+.clr{width:1px;height:0;font-size:0;clear:both;}
+
+.f66{color:#666666;}
+.f66 a{color:#666666;}
+.f66 a:hover{color:#ed1b23;}
+
+.f88{color:#888;}
+.f88 a{color:#888;}
+.f88 a:hover{color:#ed1b23;}
+
+.f008{color:#008aff;}
+.f008 a{color:#008aff;}
+.f008 a:hover{color:#ed1b23;}
+
+.fcf{color:#cff2ff;}
+.fcf a{color:#cff2ff;}
+.fcf a:hover{color:#ed1b23;}
+
+.f288{color:#288dc3;}
+.f288 a{color:#288dc3;}
+.f288 a:hover{color:#ed1b23;}
+
+.fred{color:#ed1b23;}
+.fred a{color:#ed1b23;text-decoration:underline;}
+.fred a:hover{color:#ed1b23;text-decoration:none;}
+
+.ff{color:#fff;}
+.ff a{color:#fff;}
+.ff a:hover{color:#ff0;}
+
+.font_a{font-family:arial;}
+
+.dot_blue{background:url(http://comic.qq.com/index09/dot_blue.gif) center repeat-x;}
+.dot_grey{background:url(http://comic.qq.com/index09/dot_grey.gif) center repeat-x;width:100%;height:1px;font-size:1px;line-height:1px;}
+
+.main960{width:960px;margin:0 auto;clear:both;}
+
+.Left_A{width:310px;float:left;}
+#Focus_Pic{width:310px;height:305px;padding-top:5px;background:url(http://comic.qq.com/index09/imgmap-1.png) 0 -160px;}
+
+#Hot_video{width:310px;height:143px;background:url(http://comic.qq.com/index09/imgmap-1.png) -320px -160px;}
+.Left_A_Tit1{height:32px;padding-left:77px;padding-top:17px;font-size:14px;color:#fff;font-weight:bold;}
+#Hot_video dd{padding-left:14px;}
+#Hot_video p{width:89px;height:86px;padding-right:9px;float:left;padding:4px;background:url(http://comic.qq.com/index09/imgmap-1.png) 0 -480px;}
+#Hot_video p img{margin-bottom:8px;}
+.pdl24{padding-left:24px;}
+
+#Hot_Key{width:310px;height:138px;background:url(http://comic.qq.com/index09/imgmap-1.png) -320px -303px;}
+#Hot_Key dd{padding:0 15px;}
+
+.Mid_A{float:left;width:380px;padding-left:10px;}
+#Today_focus{width:355px;height:31px;padding-right:25px;background:url(http://comic.qq.com/index09/imgmap-1.png) -100px -480px;}
+.big_news_bg{width:370px;padding:0 5px;height:130px;background:url(http://comic.qq.com/index09/imgmap-1.png) -100px -520px;}
+.big_title{font-size:18px;font-family:"ºÚÌå";line-height:35px;}
+.big_news_list{float:left;width:185px;color:#b5b5b5;}
+.big_news{width:370px;padding:0 5px;height:126px;}
+
+.Mid_A_B{width:376px;padding-left:4px;}
+.big_tabs_bg{width:363px;height:45px;background:url(http://comic.qq.com/index09/imgmap-1.png) -500px -520px;}
+#big_tabs{width:268px;float:left;}
+#big_tabs div{float:left;width:80px;height:34px;padding-right:2px;padding-top:11px;text-align:center;background:url(http://comic.qq.com/index09/imgmap-1.png) -600px -580px;}
+#big_tabs .on{color:#66b54d;font-weight:bold;background:url(http://comic.qq.com/index09/imgmap-1.png) -500px -580px;}
+#big_tabs .on a{color:#66b54d;}
+#big_tabs .on a:hover{color:#ed1b23;}
+
+
+#big_cons{width:361px;height:125px;padding-top:3px;border:1px solid #dedede;}
+#big_cons p{width:120px;float:left;text-align:center;}
+#big_cons p img{margin-bottom:12px;}
+
+.Right_A{float:left;width:250px;height:586px;padding-top:5px;padding-left:10px;background:url(http://comic.qq.com/index09/imgmap-1.png) -700px -580px;}
+#jingpin_tabs{width:250px;height:30px;}
+.jingpin_tabs0{background:url(http://comic.qq.com/index09/imgmap-1.png) 0 -660px;}
+.jingpin_tabs1{background:url(http://comic.qq.com/index09/imgmap-1.png) 0 -700px;}
+#jingpin_tabs div{float:left;width:125px;padding-top:7px;font-size:14px;text-align:center;color:#666;}
+#jingpin_tabs .on{color:#288dc3;font-weight:bold;}
+
+#jingpin_cons{width:240px;height:292px;padding:8px 5px;background:url(http://comic.qq.com/index09/imgmap-1.png) -260px -660px;}
+#jingpin_cons ul{width:230px;height:192px;padding-left:10px;}
+#jingpin_cons .pic img{float:left;border:1px solid #cacaca;padding:3px;margin-right:9px;}
+#jingpin_cons .pic{height:76px;}
+
+#Right_A_AD1{width:240px;height:100px;margin:0 auto;}
+
+.Right_A_Tit1{width:235px;height:19px;padding-left:15px;padding-top:8px;color:#fff;font-weight:bold;font-size:14px;background:url(http://comic.qq.com/index09/imgmap-1.png) 0 -740px;}
+.Right_A_Cont1{width:230px;padding-left:20px;height:194px;padding-top:16px;background:url(http://comic.qq.com/index09/imgmap-1.png) 0 -767px;}
+.Right_A_Cont1 .pic img{float:left;border:1px solid #cacaca;padding:3px;margin-right:9px;}
+.Right_A_Cont1 .pic{height:76px;}
+
+.Left_B_Bg{width:310px;height:338px;background:url(http://comic.qq.com/index09/imgmap-1.png) -640px -160px;}
+.Left_B_Tit{padding-left:49px;height:23px;padding-top:13px;}
+.Left_B_Cont{width:298px;height:133px;padding-left:12px;}
+.Left_B_Cont p{float:left;width:121px;height:119px;padding-top:3px;background:#fff;border:1px solid #a9e3ff;text-align:center;}
+.Left_B_Cont p img{margin-bottom:10px;}
+.Left_B_list{padding-left:8px;}
+
+.Mid_B{width:390px;float:left;}
+.Mid_B_tit1{width:350px;margin:0 auto;height:22px;padding-left:13px;background:url(http://comic.qq.com/index09/imgmap-1.png) 0 -990px;}
+.Mid_B ul{width:363px;margin:0 auto;height:144px;}
+.Mid_B_tit2{height:29px;}
+
+.Mid_B_pic{width:361px;height:125px;padding-top:3px;border:1px solid #dedede;margin:0 auto;}
+.Mid_B_pic p{width:120px;float:left;text-align:center;}
+.Mid_B_pic p img{margin-bottom:12px;}
+
+.Right_B{width:250px;height:334px;padding-top:10px;padding-left:9px;float:left;border-left:1px solid #a9e3ff;border-bottom:1px solid #a9e3ff;background:#e0f4ff;}
+.Right_B_b{width:248px;height:285px;padding-top:10px;border:1px solid #a9e3ff;background:#fafeff;}
+#Right_B_Tabs{width:220px;height:30px;margin:0 auto;background:url(http://comic.qq.com/index09/imgmap-1.png) 0 -1020px;}
+#Right_B_Tabs div{float:left;width:80px;height:22px;padding-top:8px;text-align:center;background:url(http://comic.qq.com/index09/imgmap-1.png) -350px -1020px;margin-right:2px;}
+#Right_B_Tabs .on{color:#66b54d;font-weight:bold;background:url(http://comic.qq.com/index09/imgmap-1.png) -260px -1020px;}
+#Hot_Conts{width:194px;padding-left:26px;margin:0 auto;background:url(http://comic.qq.com/index09/imgmap-1.png) 0 -1060px;}
+
+.Banner_Tit{width:782px;height:23px;padding-left:178px;padding-top:12px;margin:0 auto;background:url(http://comic.qq.com/index09/imgmap-1.png) 0 -1310px;}
+.Banner_Tit span{padding-left:32px;}
+.Left_C{width:710px;height:489px;padding-top:11px;float:left;background:url(http://comic.qq.com/index09/imgmap-1.png) 0 -1345px;}
+.Left_C_Tit1{width:295px;height:22px;padding-left:15px;padding-top:10px;background:url(http://comic.qq.com/index09/imgmap-1.png) -300px -1060px;}
+.Left_C_List1{width:288px;height:136px;padding:10px;border-left:1px solid #e0e0e0;border-right:1px solid #e0e0e0;}
+.Left_C_List2{width:292px;height:253px;padding:15px 8px 0 8px;border:1px solid #e0e0e0;border-top:none;}
+.Left_C_List2 p{width:97px;height:122px;float:left;text-align:center;}
+.Left_C_List2 p img{border:1px solid #dedede;padding:3px;margin-bottom:8px;}
+.Left_C_a{width:310px;float:left;}
+.Left_C_b{width:372px;float:left;padding:0 14px;}
+.Left_C_bittons{width:372px;}
+.Left_C_bittons img{margin-right:5px;}
+.Left_C_tit2{width:354px;height:18px;padding-top:12px;padding-left:18px;background:url(http://comic.qq.com/index09/imgmap-1.png) -300px -1110px;}
+.Left_C_new dd{height:98px;line-height:20px;padding-right:22px;padding-top:8px;}
+.Left_C_new dd img{padding:3px;border:1px solid #dedede;float:left;margin-right:15px;}
+
+.Right_C{width:250px;height:500px;float:left;background:url(http://comic.qq.com/index09/imgmap-1.png) -710px -1345px;}
+.Right_C_Tit1{width:235px;padding-left:15px;height:22px;padding-top:10px;}
+.Right_C_List1{width:212px;padding-left:38px;height:91px;background:url(http://comic.qq.com/index09/imgmap-1.png) -300px -1170px;}
+.Right_C_Pics p{width:125px;height:122px;float:left;text-align:center;}
+.Right_C_Pics p img{border:1px solid #dedede;padding:3px;margin-bottom:8px;}
+
+.Banner_Tit2{background:url(http://comic.qq.com/images/comic/2011/imgmap-21.png) 0 0;}
+.Left_D{width:310px;float:left;padding-top:11px;background:url(http://comic.qq.com/index09/imgmap-2.png) 0 -35px;}
+.Left_D_Bott{width:308px;height:419px;border:1px solid #e0e0e0;border-top:none;padding-top:15px;}
+.Left_D_Bott p,.Left_E_Cont p,.Left_G_Cont p{width:154px;float:left;height:147px;text-align:center;}
+.Left_D_Bott p img,.Left_E_Cont p img,.Left_G_Cont p img{border:1px solid #dedede;margin-bottom:11px;}
+.Left_D_List1{width:288px;padding:0 10px;padding-top:2px;}
+.Mid_D{width:391px;padding-left:9px;padding-top:11px;float:left;background:url(http://comic.qq.com/index09/imgmap-2.png) -310px -35px;}
+.Mid_D_news{height:128px;}
+.Mid_D_bg1{width:360px;height:7px;background:url(http://comic.qq.com/index09/imgmap-2.png) 0 -520px;}
+.Mid_D_new{width:370px;padding:0 5px;}
+.Mid_D_new li{height:98px;line-height:20px;padding-right:22px;padding-top:15px;}
+.Mid_D_new li img{padding:3px;border:1px solid #dedede;float:left;margin-right:15px;}
+
+.Right_D{width:250px;float:left;background:url(http://comic.qq.com/index09/imgmap-2.png) -710px -35px;}
+.Right_D_list1{width:197px;margin:0 auto;height:249px;padding-top:10px;padding-left:23px;background:url(http://comic.qq.com/index09/imgmap-1.png) 0 -1050px;}
+.Right_D_list2{height:145px;padding-left:15px;padding-top:10px;}
+
+.Banner_Tit3{background:url(http://comic.qq.com/index09/imgmap-2.png) 0 -540px;}
+.Left_E{float:left;width:310px;padding-top:11px;background:url(http://comic.qq.com/index09/imgmap-2.png) 0 -575px;}
+.Left_E_Cont{width:308px;height:419px;padding-top:15px;border:1px solid #e0e0e0;border-top:none;}
+.Left_E_Cont p{background:url(http://comic.qq.com/index09/imgmap-21.png) -806px -880px;}
+.Right_E{width:636px;padding-left:14px;float:left;}
+.Right_E_left{width:386px;height:294px;padding-top:11px;float:left;background:url(http://comic.qq.com/index09/imgmap-2.png) -324px -575px;}
+.Right_E_pics{width:363px;height:124px;padding:7px 0;}
+.Right_E_pics ul{height:119px;padding-top:3px;border:1px solid #dedede;padding-left:4px;}
+.Right_E_pics li{width:115px;float:left;padding-right:4px;text-align:center;}
+.Right_E_pics li img{margin-bottom:9px;}
+.Right_E_list1{float:left;width:182px;line-height:24px;font-size:14px;color:#b5b5b5;}
+.Right_E_right{width:250px;height:305px;float:left;background:url(http://comic.qq.com/index09/imgmap-2.png) -710px -575px;}
+.Right_E_list2{width:220px;margin:0 auto;padding-top:9px;}
+.Right_E_pics2t{width:618px;height:26px;padding-left:18px;padding-top:13px;background:url(http://comic.qq.com/index09/imgmap-2.png) 0 -1060px;}
+.Right_E_pics2{width:635px;height:123px;border-right:1px solid #a9e3ff;border-bottom:1px solid #a9e3ff;}
+.Right_E_pics2 p{width:127px;text-align:center;float:left;}
+.Right_E_pics2 p img{border:1px solid #dedede;margin-bottom:9px;}
+
+.Banner_Tit4{background:url(http://comic.qq.com/index09/imgmap-2.png) 0 -1120px;}
+.Left_F{width:310px;float:left;padding-top:11px;background:url(http://comic.qq.com/index09/imgmap-2.png) 0 -1430px;}
+.Left_F_List1{width:297px;padding-left:11px;border-left:1px solid #E0E0E0;border-right:1px solid #E0E0E0;height:187px;padding-top:8px;}
+.Left_F_List2{width:300px;height:259px;padding:0 4px;border:1px solid #E0E0E0;border-top:none;}
+.Left_F_List2 .pic_bg{background:url(http://comic.qq.com/index09/imgmap-2.png) 0 -1160px;width:93px;height:246px;padding:9px 7px 0 7px;}
+.Left_F_List2 .pic_bg p{width:93px;height:120px;padding-top:4px;text-align:center;}
+.Left_F_List2 .pic_bg p img{margin-bottom:7px;}
+
+.Mid_F{width:386px;padding-left:14px;padding-top:11px;float:left;background:url(http://comic.qq.com/index09/imgmap-2.png) -310px -1430px;}
+.Left_F_list3{width:150px;margin:0 auto;margin-left:10px;padding-top:10px;padding-left:26px;background:url(http://comic.qq.com/index09/imgmap-1.png) 0 -1050px;}
+.Mid_F_Pics{width:363px;}
+.Mid_F_Pics_t{height:32px;}
+.Mid_F_Picsc{width:357px;height:244px;padding-top:3px;border:1px solid #dedede;padding-left:4px;}
+.Mid_F_Picsc p{width:115px;height:121px;float:left;padding-right:4px;text-align:center;}
+.Mid_F_Picsc p img{margin-bottom:9px;}
+.Mid_F_news{height:113px;}
+.Right_F{width:250px;height:530px;float:left;background:url(http://comic.qq.com/index09/imgmap-2.png) -710px -1430px;}
+.Right_D_Pics{height:254px;padding-top:12px;}
+.Right_F_Names{width:230px;margin:0 auto;}
+
+.Banner_Tit5{background:url(http://comic.qq.com/index09/imgmap-3.png) 0 0;}
+.Left_G_Cont{width:308px;height:333px;padding-top:15px;border-left:1px solid #e0e0e0;border-right:1px solid #e0e0e0;}
+.Left_G_Cont2{width:280px;height:82px;padding:10px 14px 0 14px;border:1px solid #e0e0e0;border-top:none;}
+.Left_G{background:url(http://comic.qq.com/index09/imgmap-3.png) 0 -35px;}
+.Mid_G{width:386px;float:left;padding-left:14px;padding-top:13px;background:url(http://comic.qq.com/index09/imgmap-3.png) -310px -35px;}
+.Mid_G_more{width:361px;text-align:right;padding-right:25px;}
+.Mid_G p{float:left;width:114px;height:140px;padding-top:23px;padding-right:11px;text-align:center;background:url(http://comic.qq.com/index09/imgmap-3.png) 0 -551px;}
+.Mid_G p img{margin-top:19px;margin-bottom:13px;}
+.Right_G{float:left;width:250px;height:516px;background:url(http://comic.qq.com/index09/imgmap-3.png) -710px -35px;}
+.Right_G_Pic{padding:15px 13px 0 13px;}
+.Right_G_Pic p{float:left;width:112px;height:118px;text-align:center;}
+.Right_G_Pic p img{border:1px solid #dedede;padding:3px;margin-bottom:8px;}
+.Right_G_List1{width:233px;padding-left:17px;height:165px;clear:both}
+.Right_G_List2{width:233px;padding-left:17px;padding-top:10px;height:144px;}
+
+.Banner_Tab0{width:908px;height:35px;padding-left:52px;margin:0 auto;background:url(http://comic.qq.com/index09/imgmap-3.png) 0 -720px;}
+.Banner_Tab1{width:908px;height:35px;padding-left:52px;margin:0 auto;background:url(http://comic.qq.com/index09/imgmap-3.png) 0 -1960px;}
+#Banner_Tabs div{width:155px;height:35px;float:left;cursor:pointer;}
+.Main_H{width:928px;height:332px;padding-left:32px;padding-top:20px;margin:0 auto;background:url(http://comic.qq.com/index09/imgmap-3.png) 0 -755px;}
+.Main_H div{width:157px;height:163px;padding-right:28px;float:left;}
+.Main_H div p{width:145px;height:136px;border:1px solid #DEDEDE;padding:5px;text-align:center;}
+.Main_H div p img{margin-bottom:10px;}
+
+.Banner_Tit7{background:url(http://comic.qq.com/index09/imgmap-3.png) 0 -1120px;}
+.Left_I_list{width:284px;height:332px;padding:14px 12px 0 12px;border:1px solid #e0e0e0;border-top:none;}
+.Left_I_list li{height:110px;}
+.Left_I_list img{float:left;margin-right:11px;border:1px solid #dedede;padding:3px;}
+.Left_I{background:url(http://comic.qq.com/index09/imgmap-3.png) 0 -1155px;}
+.Mid_I{background:url(http://comic.qq.com/index09/imgmap-3.png) -310px -1155px;}
+.Mid_I_Pics{width:366px;padding-top:11px;}
+.Mid_I_Pics p{width:120px;height:110px;padding-top:10px;padding-right:2px;float:left;text-align:center;}
+.Mid_I_Pics p img{margin-bottom:10px;}
+.Right_I{background:url(http://comic.qq.com/index09/imgmap-3.png) -710px -1155px;height:390px;}
+.Right_I_List{width:213px;padding-left:37px;padding-top:15px;background:url(http://comic.qq.com/index09/imgmap-3.png) -220px -1550px;}
+.Right_I_Pic{height:99px;width:177px;padding:6px;padding-right:19px;background:url(http://comic.qq.com/index09/imgmap-3.png) 0 -1550px;}
+.Right_I_Pic img{float:left;margin-right:8px;}
+
+.Hezuo{width:958px;margin:0 auto;border:1px solid #CDCDCD;}
+.Hezuo_tit{width:935px;height:23px;padding-right:23px;padding-top:11px;background:url(http://comic.qq.com/index09/imgmap-3.png) 0 -1910px;}
+.Hezuo_Bott{width:886px;padding:14px 36px;color:#d5d5d5;background:#F7F7F7;}
+
+.txjptag{width:363px;margin:0 auto 3px}
+.txjptag .textleft{float:left;width:235px;height:139px;background:url(http://comic.qq.com/indexadd1217/line3.gif) no-repeat right top;padding-top:1px}
+.txjptag .textleft .zuozi{margin:0;padding:0;background:url(http://comic.qq.com/indexadd1217/dianline.gif) no-repeat left bottom;cursor:pointer}
+.txjptag .textleft .tag{width:235px;height:28px;background:url(http://comic.qq.com/indexadd1217/tag2.gif) no-repeat;margin-top:-1px;line-height:28px}
+.txjptag .textleft .tag p{color:#298EC6}
+.txjptag .textleft .tag p a{color:#298EC6}
+.txjptag .textleft .tag p a:hover{color:#298EC6}
+.txjptag .textleft .yekatxt{width:224px;height:27px;margin:0px auto;padding:0;clear:boht;line-height:27px}
+.txjptag .textleft .yekatxt span{float:left;width:83px;color:#298EC6;}
+.txjptag .textleft .yekatxt p{width:132px;float:left;background:url(http://comic.qq.com/indexadd1217/diandian.gif) no-repeat left 8px;text-align:left;padding-left:9px}
+.txjptag .picright{float:left;width:128px;height:139px;background:url(http://comic.qq.com/indexadd1217/kuangzi3.gif) no-repeat top}
+.txjptag .picright .tupianlist img{border:1px solid #A1A09D;margin:14px auto 8px}/*  |xGv00|b4840a3abe09b06b3a7a543db79814c9 */

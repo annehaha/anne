@@ -1,0 +1,52 @@
+E:\Users\Administrator\Downloads\MyCube\MyCube\MyCube\MojaKocka\obj\Release\ResolveAssemblyReference.cache
+E:\Users\Administrator\Downloads\MyCube\MyCube\MyCube\MojaKocka\obj\Release\Simple Styles.baml
+E:\Users\Administrator\Downloads\MyCube\MyCube\MyCube\MojaKocka\obj\Release\App.baml
+E:\Users\Administrator\Downloads\MyCube\MyCube\MyCube\MojaKocka\obj\Release\Window1.g.cs
+E:\Users\Administrator\Downloads\MyCube\MyCube\MyCube\MojaKocka\obj\Release\App.g.cs
+E:\Users\Administrator\Downloads\MyCube\MyCube\MyCube\MojaKocka\obj\Release\MyCube_MarkupCompile.cache
+E:\Users\Administrator\Downloads\MyCube\MyCube\MyCube\MojaKocka\obj\Release\MyCube_MarkupCompile.lref
+E:\Users\Administrator\Downloads\MyCube\MyCube\MyCube\MojaKocka\bin\Release\MyCube.exe
+E:\Users\Administrator\Downloads\MyCube\MyCube\MyCube\MojaKocka\bin\Release\MyCube.pdb
+E:\Users\Administrator\Downloads\MyCube\MyCube\MyCube\MojaKocka\obj\Release\Window1.baml
+E:\Users\Administrator\Downloads\MyCube\MyCube\MyCube\MojaKocka\obj\Release\MyCube.g.resources
+E:\Users\Administrator\Downloads\MyCube\MyCube\MyCube\MojaKocka\obj\Release\MyCube.Properties.Resources.resources
+E:\Users\Administrator\Downloads\MyCube\MyCube\MyCube\MojaKocka\obj\Release\MyCube.csproj.GenerateResource.Cache
+E:\Users\Administrator\Downloads\MyCube\MyCube\MyCube\MojaKocka\obj\Release\MyCube.exe
+E:\Users\Administrator\Downloads\MyCube\MyCube\MyCube\MojaKocka\obj\Release\MyCube.pdb
+F:\桌面书\全部播放器资料更新\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\MyCube.exe
+F:\桌面书\全部播放器资料更新\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\MyCube.pdb
+F:\桌面书\全部播放器资料更新\MyCubeNew\MyCube\MyCube\MojaKocka\bin\Release\MyCube.exe
+F:\桌面书\全部播放器资料更新\MyCubeNew\MyCube\MyCube\MojaKocka\bin\Release\MyCube.pdb
+F:\桌面书\全部播放器资料更新\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\ResolveAssemblyReference.cache
+F:\桌面书\全部播放器资料更新\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\Simple Styles.baml
+F:\桌面书\全部播放器资料更新\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\App.baml
+F:\桌面书\全部播放器资料更新\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\Window1.g.cs
+F:\桌面书\全部播放器资料更新\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\App.g.cs
+F:\桌面书\全部播放器资料更新\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\MyCube_MarkupCompile.cache
+F:\桌面书\全部播放器资料更新\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\MyCube_MarkupCompile.lref
+F:\桌面书\全部播放器资料更新\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\Window1.baml
+F:\桌面书\全部播放器资料更新\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\MyCube.g.resources
+F:\桌面书\全部播放器资料更新\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\MyCube.Properties.Resources.resources
+F:\桌面书\全部播放器资料更新\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\MyCube.csproj.GenerateResource.Cache
+E:\Users\Administrator\Desktop\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\MyCube.exe
+E:\Users\Administrator\Desktop\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\MyCube.pdb
+E:\Users\Administrator\Desktop\MyCubeNew\MyCube\MyCube\MojaKocka\bin\Release\MyCube.exe
+E:\Users\Administrator\Desktop\MyCubeNew\MyCube\MyCube\MojaKocka\bin\Release\MyCube.pdb
+E:\Users\Administrator\Desktop\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\ResolveAssemblyReference.cache
+E:\Users\Administrator\Desktop\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\Simple Styles.baml
+E:\Users\Administrator\Desktop\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\App.baml
+E:\Users\Administrator\Desktop\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\Window1.g.cs
+E:\Users\Administrator\Desktop\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\App.g.cs
+E:\Users\Administrator\Desktop\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\MyCube_MarkupCompile.cache
+E:\Users\Administrator\Desktop\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\MyCube_MarkupCompile.lref
+E:\Users\Administrator\Desktop\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\Window1.baml
+E:\Users\Administrator\Desktop\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\MyCube.g.resources
+E:\Users\Administrator\Desktop\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\MyCube.Properties.Resources.resources
+E:\Users\Administrator\Desktop\MyCubeNew\MyCube\MyCube\MojaKocka\obj\Release\MyCube.csproj.GenerateResource.Cache
+E:\Users\Administrator\Desktop\MyCubeNew2\MyCube\MyCube\MojaKocka\obj\Release\ResolveAssemblyReference.cache
+E:\Users\Administrator\Desktop\MyCubeNew2\MyCube\MyCube\MojaKocka\obj\Release\Simple Styles.baml
+E:\Users\Administrator\Desktop\MyCubeNew2\MyCube\MyCube\MojaKocka\obj\Release\App.baml
+E:\Users\Administrator\Desktop\MyCubeNew2\MyCube\MyCube\MojaKocka\obj\Release\App.g.cs
+E:\Users\Administrator\Desktop\MyCubeNew2\MyCube\MyCube\MojaKocka\obj\Release\MyCube_MarkupCompile.cache
+E:\Users\Administrator\Desktop\MyCubeNew2\MyCube\MyCube\MojaKocka\obj\Release\Window1.g.cs
+E:\Users\Administrator\Desktop\MyCubeNew2\MyCube\MyCube\MojaKocka\obj\Release\MyCube_MarkupCompile.lref

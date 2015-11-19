@@ -1,0 +1,179 @@
+body{margin:0;padding:0;background-color:#FFF;}
+form,input,select,div,ul,li,p,h1,h2,h3,h4,h5,h6{margin:0px;padding:0px;}
+body,td,select,input,div{font-size:12px; color:#333;}
+img{border:none;}
+ul,li{list-style:none;}
+h1,h2{font-weight:normal;}
+a{text-decoration: none; color:#333;}
+a:hover{text-decoration:underline; color:#ff0000;}
+/* Clear Fix */ 
+.cl{zoom:1;}
+.cl:after{content:"　";display:block;clear:both;height:0;}
+.cl{zoom:1;}
+.cl:after{content:"　";display:block;clear:both;height:0;}
+
+.white,.white a{color:#FFF;}
+.white a:hover{color:#ff0000;}
+.hui,.hui a{color:#7c7c7c;}
+.shong,.shong a{color:#920853;}
+.shong a:hover{color:#ff0000;}
+.fen,.fen a{color:#f64b7f;}
+.fen a:hover{color:#ff0000;}
+.hui1,.hui1 a{color:#c7c7c7;}
+.hui1 a:hover{color:#ff0000;}
+.zong,.zong a{color:#7e566a;}
+.zong a:hover{color:#ff0000;}
+.hong,.hong a{color:#e30000;}
+.hong a:hover{color:#ff0000;}
+.zi,.zi a{color:#7b7ac6;}
+.zi a:hover{color:#ff0000;}
+
+
+.lh21{line-height:21px;}
+.lh22{line-height:22px;}
+.lh24{line-height:24px;}
+.lh26{line-height:26px;}
+
+.ti2{text-indent:2em;}
+.fs12{font-size:12px;}
+.fs14{font-size:14px;}
+.fs16{font-size:16px;}
+.fs18{font-size:18px;}
+
+.fl{float:left;}
+.fr{float:right;}
+
+.dis{display:block;}
+.undis{display:none;}
+
+/* CSS空白 */
+.hr4,.hr5,.hr6,hr7,.hr8,.hr10,.hr12,hr14,.h16{margin:0 auto;font-size:0;line-height:0; background:#fff;clear:both;}
+.hr4{height:4px;}
+.hr5{height:5px;}
+.hr6{height:6px;}
+.hr7{height:7px;}
+.hr8{height:8px;}
+.hr10{height:10px;}
+.hr12{height:12px;}
+.hr14{height:14px;}
+.hr16{height:16px;}
+
+.bg_tln{background-position:top left; background-repeat:no-repeat;}
+
+.pic_1 img{border:1px solid #d8d8d8;}
+.pic_2 img{border:1px solid #cdcdcd; padding:2px;}
+
+.bd_1{border:1px solid #fcbad0;}
+.bd_2{border:1px solid #cdcdcd;}
+.bd_3{border-left:1px solid #cdcdcd; border-right:1px solid #cdcdcd; height:19px;}
+
+.tbbg_1{background:url(http://mat1.gtimg.com/lady/mrlm960/images/bg.png) 0 -267px;}
+.tbbg_2{background:url(http://mat1.gtimg.com/lady/mrlm960/images/bg.png) -156px -267px;}
+.tbbg_3{background:url(http://mat1.gtimg.com/lady/mrlm960/images/bg.png) -284px -267px;}
+
+.mgt10{margin-top:10px;}
+.mgt20{margin-top:20px;}
+
+/*一级容器*/
+.wrap{width:960px; margin:10px auto 0; background:#fff;}
+/*导航*/
+#mr_nav{width:960px; margin:10px auto 0;}
+#mr_nav .hd{height:29px;}
+#mr_nav .logo{width:131px; padding-left:10px; float:left;}
+#mr_nav .sub{width:81px; padding-left:8px; float:left;}
+#mr_nav .link{width:304px; padding-left:51px; float:left;}
+#mr_nav .link div{float:left;}
+#mr_nav .link .lan{width:210px; padding-top:3px; float:left;}
+#mr_nav .link .pic{width:93px; padding-top:5px; float:left;}
+#mr_nav .link .pic img{margin-right:3px; float:left;}
+#mr_nav .soso{width:288px; float:right;}
+#mr_nav .soso div{float:left;}
+#mr_nav .soso .sslogo{width:20px; padding-top:7px;}
+#mr_nav .soso .inpt{width:180px; height:22px; padding:1px 2px; background:url(http://mat1.gtimg.com/lady/mrlm960/images/bg.png) 0 0; margin-top:3px;}
+#mr_nav .soso .inpt input{width:176px; height:18px; line-height:18px; border:0px;}
+#mr_nav .soso .an{width:78px; padding-top:4px; text-align:right;}
+#mr_nav .bd{height:26px; line-height:26px; padding-top:2px; background:url(http://mat1.gtimg.com/lady/mrlm960/images/bg.png) 0 -30px; margin-top:10px;}
+#mr_nav .bd li{float:left; padding:0 12px; font-size:14px; color:#fff;}
+#mr_nav .bd li a{color:#fff;}
+#mr_nav .ft{height:24px; padding-top:2px; line-height:24px; background:url(http://mat1.gtimg.com/lady/mrlm960/images/bg.png) 0 -58px;}
+#mr_nav .ft li{float:left; padding:0 12px;}
+/*首屏*/
+#screenf .left{float:left;width:297px;}
+#screenf .center{float:left; width:400px;}
+#screenf .right{float:left;width:263px;}
+/*焦点图*/
+#focus{width:274px; height:411px; padding:3px; background:#ff8fb1; position:relative;}
+#con{width:260px; height:28px; padding-top:3px; padding-left:14px; line-height:28px; position:absolute; top:354px; left:3px; background:url(http://mat1.gtimg.com/lady/mrlm960/images/bg_1.png) !important; background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://mat1.gtimg.com/lady/mrlm960/images/bg_1.png', sizingMethod='scale');}
+#con .a{display:block; font-size:14px; color:#fff; cursor:hand;}
+#con .b{display:none; font-size:14px; color:#fff; cursor:hand;}
+#num{width:91px; height:23px; padding:6px 0 0 182px; background:#000000; position:absolute; top:385px; left:3px;}
+#num li{float:left; width:19px; height:17px; font-family:"Arial"; font-size:10px; line-height:17px; margin-right:3px; text-align:center; cursor:hand;}
+#num .nos{background:#e36500; color:#fff;}
+#num .s{background:#303030; color:#b0b0b0;}
+/*新闻头条*/
+.news{width:364px; padding:0 18px;}
+.news .hd{height:36px; padding-top:4px; line-height:36px; font-family:"黑体"; font-size:20px; text-align:center;}
+.news .bd{height:48px; text-indent:2em; line-height:24px; padding-top:3px; font-size:14px;}
+.news .bd span{color:#7c7c7c;}
+.list{width:400px;}
+.list .tit{width:23px; height:47px; line-height:20px; padding:8px 0 0 9px; background:url(http://mat1.gtimg.com/lady/mrlm960/images/bg.png) -971px -30px; float:left; margin-right:8px;}
+.list ul{padding-top:1px;}
+.list li{width:180px; float:left; line-height:27px; font-size:14px;}
+.xian1{width:400px; height:10px; background:url(http://mat1.gtimg.com/lady/mrlm960/images/bg.png) -191px 0;}
+.xian2{width:400px; height:13px; background:url(http://mat1.gtimg.com/lady/mrlm960/images/bg.png) -191px -13px;}
+/*栏目*/
+.lanmu{width:960px; margin:0 auto;}
+.lanmu .top{height:52px; background:url(http://mat1.gtimg.com/lady/mrlm960/images/bg.png);}
+.lanmu .hd{height:24px; line-height:24px; background:url(http://mat1.gtimg.com/lady/mrlm960/images/bg_2.jpg) left top no-repeat; padding:0 0 0 25px;}
+.lanmu .hd .fl{font-weight:bold; font-size:14px; color:#7e566a;}
+.bottom .left .hd{width:235px;}
+.bottom .center .hd{width:368px; margin:0 auto;}
+.bottom .right .hd{width:208px; margin:0 auto;}
+.lanmu_1{width:710px;}
+.lanmu_1 .lm_lf{width:256px; float:left;}
+.lanmu_1 .lm_rt{width:444px; float:left;}
+.lanmu_1 .lm_lf .p_t{width:243px; height:328px; border:1px solid #cdcdcd; position:relative; margin-top:15px;}
+.lanmu_1 .lm_lf .p_t .tit{width:243px; height:28px; padding-top:3px; text-align:center; line-height:28px; font-size:14px; position:absolute; top:297px; background:url(http://mat1.gtimg.com/lady/mrlm960/images/bg_1.png) !important; background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://mat1.gtimg.com/lady/mrlm960/images/bg_1.png', sizingMethod='scale');} 
+.lanmu_1 .lm_lf .fjc{width:221px; height:69px; background:#fff6f8; border:1px solid #fcd6e3; line-height:24px; padding:11px; margin-top:10px;}
+.hd_rt{width:224px; height:27px; padding:2px 12px 0 14px; line-height:27px; background:url(http://mat1.gtimg.com/lady/mrlm960/images/bg.png) -1017px -30px;}
+.hd_rt .fl{color:#fff; font-size:14px; font-weight:bold;}
+.box_rt{width:248px; border:1px solid #dbdada; border-top:none;}
+.box_qmxf{width:250px; height:277px; background:url(http://mat1.gtimg.com/lady/mrlm960/images/bg.png) -418px -267px;}
+/*品牌宝典*/
+.ppbd .top{background-position:0 -88px;}
+.ppbd .bottom{height:337px; padding-top:9px;}
+.ppbd .bottom .left{width:280px; height:337px; float:left;}
+.ppbd .bottom .center{width:429px; height:337px; border-left:1px solid #dddddd; border-right:1px solid #dddddd; float:left;}
+.ppbd .bottom .right{width:249px; height:337px; float:left;}
+/*鲜货荟萃*/
+.xhhc .top{background-position:0 -143px;}
+.xhhc .bottom{height:277px; padding-top:9px;}
+.xhhc .bottom .left{width:280px; height:277px; float:left;}
+.xhhc .bottom .center{width:429px; height:277px; border-left:1px solid #dddddd; border-right:1px solid #dddddd; float:left;}
+.xhhc .bottom .right{width:249px; height:277px; float:left;}
+/*完美肌肤*/
+.wmjf .left{width:710px; float:left;}
+.wmjf .right{width:250px; float:right;}
+.wmjf .top{width:700px; background-position:-971px -88px;}
+/*绚丽彩妆*/
+.xlcz .left{width:710px; float:left;}
+.xlcz .right{width:250px; float:right;}
+.xlcz .top{width:700px; background-position:-971px -143px;}
+/*明星扮靓*/
+.mxbl .left{width:710px; float:left;}
+.mxbl .right{width:250px; float:right;}
+.mxbl .top{width:692px; background-position:-971px -206px; padding-right:8px;}
+.mxbl .top span{margin-top:24px; line-height:24px;}
+.mxbl .hd_rt{background-position:-1276px -30px;}
+.box_qmxf{width:250px; height:268px; background:url(http://mat1.gtimg.com/lady/mrlm960/images/bg.png) -418px -267px; padding-top:9px;}
+/*美颜大片秀*/
+.mydpx .top{background-position:0 -206px; padding-right:8px;}
+.mydpx .top span{margin-top:24px; line-height:24px;}
+.mydpx .bottom{height:265px; padding-top:15px;}
+
+#scrollbox li{float:left; padding:0 17px; list-style:none;}
+
+.pointer{cursor:pointer;}
+
+/*底部版权*/
+#footer {width:960px; margin:0 auto; padding-top:30px; text-align:center; background:url(http://mat1.gtimg.com/lady/mrlm960/images/bg_7.jpg) top repeat-x;}/*  |xGv00|7bf546a0c7163886492cef2827296d49 */

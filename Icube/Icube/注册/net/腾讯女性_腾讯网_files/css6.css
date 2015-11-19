@@ -1,0 +1,950 @@
+/*
+time:2011-08-24
+author:annan#tencent.com
+*/
+/*Tencent Reset*/
+/*-------------------css reset-----------------*/
+html{ background-color:#fff; color:#333;}
+body{ font-size:12px; font-family:"ËÎÌå",Arial, Helvetica, sans-serif; line-height:1.5em; color:#333; background-color:#fff;}
+
+a:link,A:visited{ text-decoration:none;}
+a:hover{ text-decoration:underline; color:#c00;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+a{ cursor:pointer; color:#1d569c;}
+table{ border-collapse:collapse; border-spacing:0; } 
+fieldset,img { border:0;} 
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal;font-weight:normal;}
+strong{ font-weight:700;} 
+ol,ul {list-style:none;} 
+caption,th {text-align:left;} 
+h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:400;} 
+q:before,q:after {content:''; } 
+abbr,acronym { border:0;} 
+textarea,input,select{ font-size:12px;}
+:focus {outline: 0;}
+.hd,.bd,.ft{ width:100%; overflow:hidden; zoom:1; }
+
+/*---------------------½á¹¹------------------*/
+.left{ float:left;}
+.right{ float:right;}
+
+/*--------------------¹«¹²ÑùÊ½-----------------*/
+#part1 .left .txt2 .c,#part1 #wbxxse .txt .cur_l,#part1 #wbxxse .txt .cur_r,#part1 #gdxxr .hd h2,#part1 #gdxht .hd h2,#part1 #wzwlp .mleft .cur,#part1 #wzwlp .mright .pk,#part1 #wzwlp .mright .comment,#part1 #wzwlp .mright dl .ping,#part1 #wzwlp .mright dt span,#part1 #wzwlp .mright .t1 .cur,#part1 #mldjt .cur,.listtxt a,#djch .bd .col1 span,#djch .bd .col2 .a1 .txt h3,#djch .bd .col2 .a2 .txt h3,#ssfs #lxzj .bd h2,#ssfs #ssqzs .bd .txt1 .wb,.mode .mod2  dd h4,#ssfs #xfs .bd h3 a,#mrmt #fsmrj ul li,#mrmt #wbmrzj .say .txt .cur,#mrmt #wbmrzj .wb li,#mrmt #xpss .hd .link .enter,#mrmt #hzpk .bd .searchbtn,#mrmt .title1,#mrmt .rnav a.on,#mrmt #mfsy .mflq,#mrmt .bnav a.on,#mrmt #bzhr .cur,#qgsx #wbqgzj .cur,#qgsx #wbqgzj .say li,#qgsx #qgntwzj .wytw_btn,#bkwb #wft .wbtxt li,#bkwb #wbph .hd h2,#spft .left li,#mthdyc .mid .txt3 span,#mthdyc .mid .gz .doing,#mthdyc #wsl dd .cur{ background-image:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/ico.png); background-repeat:no-repeat;}
+
+.mode{ background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/bg2.png) no-repeat right 5px; border-top:1px solid #c7c7c7;}
+.mode .hdmode{ border-top:3px solid #f0f0f0; position:relative;}
+.mode .hdmode h2{ border-top:2px solid #fff; height:63px; background-position:0 18px; background-repeat:no-repeat;}
+.mode .hdmode h2 a{ width:71px; height:40px; display:block; margin:18px 7px 0 2px; text-indent:-999em; float:left;}
+.mode .hdmode h2 a.w230{ width:230px;}
+.mode .hdmode .link{ font-size:14px; position:absolute; right:0; top:35px;}
+.mode .hdmode .link a{ margin-right:10px; color:#333;}
+.mode .hdmode .link a:hover{color:#c00;}
+.mode .hdmode .link a.more{ color:#1d569c;}
+
+.mode .leftside{ background-image:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/leftsidebar_bg.png); background-repeat:no-repeat; background-position:0 0;width:309px; float:left; padding-top:15px; overflow:hidden;}
+.mode .leftside .leftinner{border-right:1px solid #e28a8e;  padding-right:14px; width:294px; overflow:hidden;}
+.mode .mod1 .hd{ height:26px; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title_bottomline.png) 0 bottom no-repeat;}
+.mode .mod1 .hd h2{ text-indent:-999em; background-repeat:no-repeat; background-position:16px 0; float:left; width:185px; height:26px;}
+.mode .mod1 .hd .link{ float:right; margin-top:2px; padding-right:10px;}
+.mode .mod1 .bd{ background-color:#f6f6f6;}
+
+.mode .mod2{ zoom:1; margin:25px 0; width:370px; clear:both;}
+.mode .mod2:after{  content:""; clear:both; height:0; display:block; visibility:hidden;}
+.mode .mod2 dt{ float:left; position:relative; width:84px; height:124px; margin-right:10px;}
+.mode .mod2 dt img{ position:absolute; right:0; top:0;}
+.mode .mod2 dt span{ width:80px;}
+.mode .mod2 .pictxt a.infotxt{ width:80px; font-size:12px; text-align:center; height:20px; line-height:20px; left:2px; bottom:2px;}
+.mode .mod2 .pic img{ border:1px solid #ddd; padding:1px; background:#fff;}
+.mode .mod2  dd{ float:left; width:270px;}
+.mode .mod2  dd h4{ width:91px; height:31px; line-height:31px; background-position:-8px -7px; color:#e6467c; font-size:14px; font-weight:700; text-align:center; float:left;}
+.mode .mod2  dd h4 a{color:#e6467c; margin:0 5px;}
+.mode .mod2  dd .s{ float:left; width:170px; line-height:31px; padding-left:5px;}
+.mode .mod2  dd .s a{ margin:0 5px; color:#333;}
+.mode .mod2  dd .s a:hover{color:#c00;}
+.mode .mod2  dd .s .more{ color:#1d569c; margin-right:0;}
+.mode .mod2  dd ul{ clear:both; padding-top:10px;}
+.mode .mod2  dd li{ font-size:14px; line-height:26px;}
+.mode .mod2  dd li a{ color:#333;}
+.mode .mod2  dd li a:hover{color:#c00;}
+.mode .mod2  .pictxt span{ font-size:12px; text-align:center; height:20px; line-height:20px; left:2px; bottom:2px;}
+.mode .mod2  dd h5{ font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-size:18px; padding:20px 0 5px; color:#333; clear:both;}
+.mode .mod2  dd h5 a{ color:#333;}
+.mode .mod2  dd h5 a:hover{color:#c00;}
+.mode .mod2  dd p{ color:#666; line-height:20px;}
+.mode .mod2  dd p span{ font-size:18px;font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; padding-right:2px;}
+
+.mode .mod2  dd .twocol{ overflow:hidden;}
+.mode .mod2  dd .twocol li{ float:left; width:135px; _line-height:20px;}
+
+.mode .mod3{ background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/huidotline.png) repeat-x 0 bottom; padding-bottom:15px;  margin-bottom:15px;}
+.mode .mod3 h3{ font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-size:18px; text-align: center; color:#c5161d; padding-top:3px;}
+.mode .mod3 h3 a{ color:#c5161d;}
+.mode .mod3 p{ text-indent:1em;}
+.mode .mod3 p a{ color:#333; line-height:30px;}
+.mode .mod3 p a:hover{color:#c00;}
+
+.mode .listtxt2{ font-size:14px; line-height:26px;}
+.mode .listtxt2 a{ color:#333;}
+.mode .listtxt2 a:hover{color:#c00;}
+.mode .listtxt2 span{ margin:0 7px;}
+
+.mode .rightside{ background:#fff5f5 url(http://mat1.gtimg.com/lady/2011nvxingindex/images/sidebar_bg.png) no-repeat 0 0; width:251px; float:right;}
+
+.mode .rightside .title1{ margin:0 10px; height:30px; line-height:30px; padding:5px; overflow:hidden; zoom:1; border-bottom:2px solid #c5161d; width:220px;}
+.mode .rightside .title1 h2{ font-size:14px; font-weight:700; float:left;}
+.mode .rightside .title1 h2 a{ color:#333;}
+.mode .rightside .title1 h2 a:hover{color:#c00;}
+.mode .rightside .title1 .link{ float:right;}
+.mode .rightside .title1 .link a{color:#1d569c;}
+.mode .rightside .title1 .link a:hover{color:#c00;}
+
+.mode .leftside .t1{ width:280px; margin:0 0 20px 15px; height:180px; overflow:hidden; zoom:1;}
+.mode .leftside .t1 span{ width:280px; text-indent:0.5em;font-family:"Î¢ÈíÑÅºÚ","ºÚÌå";}
+.mode .leftside .pictxt a.infotxt{width:280px; text-indent:0.5em;font-family:"Î¢ÈíÑÅºÚ","ºÚÌå";}
+
+.mode .attentBoxWrap{ display:inline;}
+.mode .attentBoxWrap .delAttention{ cursor:default;}
+.mode .attentBoxWrap .delAttention:hover{ text-decoration:none;}
+
+.listtxt a{ color:#333; background-position:-479px -66px; padding-left:12px; line-height:22px;}
+.listtxt a:hover{color:#c00;}
+
+.pictxt{ position:relative; background-color:#333;}
+.pictxt span{background:rgba(0,0,0,0.6);filter: progid:DXImageTransform.Microsoft.gradient( GradientType = 0,startColorstr = '#60000000',endColorstr = '#60000000')\9; height:30px; line-height:30px; color:#fff; font-size:16px; position:absolute; left:0; bottom:0; display:block;}
+.pictxt span.cover{height:30px; line-height:30px; color:#fff; font-size:16px; position:absolute; left:0; bottom:0; display:block; background-color:#000; filter:alpha(opacity=60); opacity:0.6;}
+.pictxt a.infotxt{height:30px; line-height:30px; color:#fff; font-size:16px; position:absolute; left:0; bottom:0; display:block;}
+.pictxt a,.pictxt a:hover{ color:#fff;}
+
+.dis{ display:block;}
+.undis{ display:none;}
+
+/*----------------------µ¼º½------------------*/
+#lady_ad{ width:960px; margin:0 auto;}
+#channel_nav { clear: both; font-family: "ËÎÌå","Arial Narrow"; font-size: 12px;line-height: 20px; margin: 0 auto; padding: 0; width: 960px;overflow:hidden; zoom:1;}
+#channel_nav img {border: medium none;}
+#channel_nav ul, #channel_nav li {list-style: none outside none; margin: 0; padding: 0;}
+#channel_nav .logo { float: left; padding: 10px 0 10px 10px;}
+#channel_nav .cilogo {float: left; padding: 14px 0 0 11px;}
+#channel_nav .sub {float: left; padding-left: 11px; padding-top: 16px;}
+#channel_nav a.rss {background: url("http://mat1.gtimg.com/www/images/channel_logo/rss_logo.png") no-repeat scroll left 1px transparent; color: #666666; font-family: Arial,sans-serif; font-size: 11px; padding-left: 16px; text-decoration: none;}
+#channel_nav a.rss:hover {color: #666666; text-decoration: underline;}
+#channel_nav .link {color: #D4D4D4;display: inline; float: left; font-family: Arial,sans-serif; margin-left: 30px; padding-top: 16px;}
+#channel_nav .link a {color: #333333; text-decoration: none;}
+#channel_nav .link a:visited { color: #333333; text-decoration: none;}
+#channel_nav .link a:hover {color: #333333; text-decoration: underline;}
+#channel_nav .link .shuxianjl { margin: 0 7px 0 8px;}
+#channel_nav .linkml30 { margin-left: 30px;}
+#channel_nav .toolbar {float: right;}
+#channel_nav .Form-Crumbs-Article-QQ { float: right; padding-right: 10px; padding-top: 14px;}
+#channel_nav .Form-Crumbs-Article-QQ .submit { background: url("http://mat1.gtimg.com/news/2009/final/split_v2.png") no-repeat scroll 0 -372px transparent; border: 0 none;cursor: pointer; float: right; font-size: 12px; height: 22px; line-height: 20px; padding: 0 0 2px; width: 75px;}
+#channel_nav .Form-Crumbs-Article-QQ .inputWarp { background: url("http://mat1.gtimg.com/news/imgcss_article_qq/split_v4.1.png") no-repeat scroll 0 -344px transparent; float: right; height: 21px; margin-right: 3px; padding-top: 1px; text-align: center; width: 202px;}
+#channel_nav .Form-Crumbs-Article-QQ .txtArea { border: 0 none; font-size: 13px; height: 16px; line-height: 16px; margin: 3px 8px 0 0; padding: 0; width: 166px;}
+#channel_nav .Form-Crumbs-Article-QQ .SosoLogo { float: left; height: 16px; margin-top: 3px; width: 24px;}
+#channel_nav .Form-Crumbs-Article-QQ .SosoLogo span { display: none;}
+#nxnav{ height:25px; background:#ad1212 url(http://mat1.gtimg.com/lady/2011nvxingindex/images/bg.png) repeat-x; font-size:14px; padding-top:10px;}
+#nxnav ul{ width:960px; margin:0 auto; height:15px;}
+#nxnav ul li{ float:left; border-right:1px solid #e34254;}
+#nxnav ul li.last{ float:left; border-right:0;}
+#nxnav a{ color:#fff; margin:0 13px;}
+
+#hscroll{ height:365px; border-top:1px solid #fff; border-bottom:1px solid #cdcdcd; background-color:#f2f2f2; overflow:hidden; zoom:1;}
+
+#hscroll #scrllbox{ width:960px; margin:23px auto 0; position:relative; overflow:hidden;}					
+#hscroll #pic{ overflow:hidden;position:relative; width:990px; height:320px;}
+#hscroll #pic .split{float:left; margin-right:10px; position:relative; height:320px; overflow:hidden;}
+#hscroll #pic .split p{background:rgba(0,0,0,0.6);filter: progid:DXImageTransform.Microsoft.gradient( GradientType = 0,startColorstr = '#60000000',endColorstr = '#60000000')\9;color:#fff; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-size:16px; height:28px; line-height:28px; position:absolute; left:0; bottom:0; width:100%; text-indent:1em; white-space:nowrap;}
+#hscroll #pic .split a:hover{ color:#fff;}
+#hscroll #pic .split p.cover{color:#fff; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-size:16px; height:28px; line-height:28px; position:absolute; left:0; bottom:0; width:100%; text-indent:1em; white-space:nowrap; background-color:#000;filter:alpha(opacity=60); opacity:0.6;}
+#hscroll #pic .split a.infotxt{color:#fff; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-size:16px; height:28px; line-height:28px; position:absolute; left:0; bottom:0; width:100%; text-indent:1em; white-space:nowrap; }
+#hscroll #btn_left{ position:absolute; left:0; top:120px; cursor:pointer; display:none;}/*×ó°´Å¥*/
+#hscroll #btn_right{ position:absolute; right:0; top:120px; cursor:pointer;width:40px; height:82px; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/nLeftCur.png) no-repeat;_background:none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://mat1.gtimg.com/lady/2011nvxingindex/images/nLeftCur.png');}/*ÓÒ°´Å¥*/
+#hscroll .sllink{ overflow:hidden; zoom:1; width:960px; margin:4px auto 0;}
+#hscroll .sllink li{background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/dot2.png) no-repeat 6px 6px; float:left; padding-left:15px;}
+#hscroll .sllink li.nn0{ width:205px; padding-right:10px;}
+#hscroll .sllink li.nn1{ width:345px; padding-right:10px;}
+#hscroll .sllink li.nn2{ width:345px;}
+#hscroll .sllink a{ color:#666;}
+#hscroll .sllink a:hover{ color:#c00;}
+
+#b_new_mod .b_pic_list { overflow: hidden; margin:20px 0; width: 960px; position:relative;}
+#b_new_mod .b_pic_list li { float: left; overflow:hidden; zoom:1; display:inline;}
+#b_new_mod .b_pic_list li .img_wrap { display: block;margin-right:10px; position:relative;}
+#b_new_mod .s_cur_l { left: 0; position: absolute; top: 145px; z-index:999;}
+#b_new_mod .s_cur_r { position: absolute; right: 0; top: 145px; z-index:999;}
+#b_new_mod .b_pic_list span{background:rgba(0,0,0,0.6);filter: progid:DXImageTransform.Microsoft.gradient( GradientType = 0,startColorstr = '#60000000',endColorstr = '#60000000')\9;
+ color:#fff; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-size:16px; line-height:28px; width:100%; text-indent:1em; display:block; position:absolute; left:0; bottom:0;}
+#b_new_mod .b_pic_list a{ color:#fff;}
+#b_new_mod .b_pic_list span.cover{color:#fff; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-size:16px; line-height:28px; width:100%; text-indent:1em; display:block; position:absolute; left:0; bottom:0;background-color:#000;filter:alpha(opacity=60); opacity:0.6;}
+#b_new_mod .b_pic_list a.infotxt{color:#fff; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-size:16px; line-height:28px; width:100%; text-indent:1em; display:block; position:absolute; left:0; bottom:0;}
+
+/*----------------------part1------------------*/
+#part1{ border-top:3px solid #fff; width:960px; margin:0 auto; overflow:hidden; zoom:1;}
+#part1 .left{ border-right:1px solid #e28a8e; width:479px; font-size:14px; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/part1_l_bg.png) repeat-x 0 0;}
+
+#part1 .left .txt{ color:#666; line-height:25px;}
+#part1 .left .txt h2{ font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-size:20px; color:#c5161d; padding-top:20px;}
+#part1 .left .txt h2 a{ color:#c5161d;}
+#part1 .left .txt p{ text-indent:2em;}
+
+#part1 .left .txt2{ overflow:hidden; zoom:1; margin-top:30px;}
+#part1 .left .txt2 .pic{ float:left; margin-right:10px;}
+#part1 .left .txt2 .pic a img{ background:#fff; padding:1px; border:1px solid #ddd;}
+#part1 .left .txt2 .pic a:hover img{ background:#f2a3a4; padding:1px; border:1px solid #f2a3a4;}
+
+#part1 .left .txt2 .nr{float:left; width:380px;  }
+#part1 .left .txt2 .title{ overflow:hidden; zoom:1;line-height:31px; }
+#part1 .left .txt2 .title a{ color:#c5161d;}
+#part1 .left .txt2 .title h2{ font-size:18px; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå";}
+#part1 .left .txt2 .c{ width:91px; height:31px;text-align:center; background-position:-8px -7px; color:#000; float:left; margin-right:12px;}
+#part1 .left .txt2 .c a{ margin:0 4px; color:#000;}
+#part1 .left .txt2 .c a:hover{color:#c00;}
+
+#part1 .left .txt2 ul{ width:380px; margin-top:10px;}
+#part1 .left .txt2 li{ width:190px; float:left; line-height:26px;}
+#part1 .left .txt2 li a{ color:#333; }
+#part1 .left .txt2 li a:hover{ color:#c00;}
+#part1 .left .pictxt span{ display:block; height:20px; line-height:20px; font-size:12px; left:2px; bottom:2px; text-align:center; width:80px;}
+#part1 .left .pictxt a.infotxt{height:20px; line-height:20px; font-size:12px; left:2px; bottom:2px; text-align:center; width:80px;}
+
+#part1 .right{ width:467px; padding-left:13px; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/part1_r_bg.png) no-repeat;}
+#part1 #wbxxse{ height:375px; overflow:hidden;}
+#part1 #wbxxse .t1{ height:50px; text-indent:-999em;}
+#part1 #wbxxse .bd{ overflow:hidden; zoom:1;}
+#part1 #wbxxse .bd h3{ font-weight:700; font-size:14px; padding-left:4px; margin-bottom:20px;}
+#part1 #wbxxse .bd h3 a{ color:#333;}
+#part1 #wbxxse .bd h3 a:hover{color:#c00;}
+#part1 #wbxxse .wbtxt img{ background-color:#fff; padding:1px; border:1px solid #ddd;}
+#part1 #wbxxse .pic_l{ float:left; width:74px;}
+#part1 #wbxxse .pic_r{ float:right; width:74px;}
+#part1 #wbxxse .txt{ float:left; width:305px; margin-left:11px;}
+#part1 #wbxxse .txt li{ width:279px; height:35px; position:relative; border:1px solid #d4d4d4; padding:5px 10px;}
+#part1 #wbxxse .txt .cur_l{ width:12px; height:9px; font-size:0; overflow:hidden; background-position:-38px -155px; position:absolute; left:-11px; top:6px;}
+#part1 #wbxxse .txt .cur_r{ width:12px; height:9px; font-size:0; overflow:hidden; background-position:-43px -179px; position:absolute; right:-11px; top:6px;}
+#part1 #wbxxse .col1{ margin-bottom:10px;}
+#part1 #wbxxse .ting{ color:#c5161d;}
+#part1 .wbtxt{ margin-bottom:25px; overflow:hidden; zoom:1;}
+
+#part1 #gdxxr .hd h2,#part1 #gdxht .hd h2{ font-weight:700; background-position:-477px -339px; padding-left:20px; margin-bottom:12px;}
+#part1 #gdxxr .hd a,#part1 #gdxht .hd a{ color:#333;}
+#part1 #gdxxr .hd a:hover,#part1 #gdxht .hd a:hover{color:#c00;}
+#part1 #gdxxr{ float:left; width:232px;}
+#part1 #gdxxr li{ width:52px; height:52px; border:1px solid #ddd; float:left; margin:0 4px 4px 0; position:relative; zoom:1; }
+#part1 #gdxxr li a:hover{ text-decoration:none;}
+#part1 #gdxxr img{ border:1px solid #ddd; position:absolute; left:0; top:0; z-index:1;}
+#part1 #gdxxr li div{ width:96px; background-color:#c5161d; color:#fff; margin-right:0; padding:5px 10px; height:40px; position:absolute;  border:1px solid #ddd; border-left:0; left:51px; top:0; z-index:999;  top:0; }
+#part1 #gdxxr #txtbox0,#part1 #gdxxr #txtbox1,#part1 #gdxxr #txtbox4,#part1 #gdxxr #txtbox5{ left:51px;border:1px solid #ddd; border-left:0;}
+#part1 #gdxxr #txtbox2,#part1 #gdxxr #txtbox3,#part1 #gdxxr #txtbox6,#part1 #gdxxr #txtbox7{ left:-116px;border:1px solid #ddd; border-right:0; }
+#part1 #gdxht{ float:right; width:233px;}
+#part1 .attentBoxWrap{ display:inline;}
+#part1 .delAttention{ cursor:default;}
+#part1 .delAttention:hover{ text-decoration:none;}
+
+.light{ filter:alpha(opacity=30); -moz-opacity:0.3; opacity:0.3;}
+.dark{ filter:alpha(opacity=100); -moz-opacity:1; opacity:1;}
+.levelhz{ z-index:10;}
+.levelhl{ z-index:1;}
+
+
+#part1 #gdxht ul{ border:1px solid #ddd; width:193px; padding:9px 15px; line-height:22px; font-size:12px; overflow:hidden;}
+
+#part1 .mt{ margin-top:14px;}
+
+
+.light{ filter:alpha(opacity=30); -moz-opacity:0.3; opacity:0.3;}
+.dark{ filter:alpha(opacity=100); -moz-opacity:1; opacity:1;}
+.levelhz{ z-index:10;}
+.levelhl{ z-index:1;}
+
+#part1 #gdxht{ float:right; width:225px;}
+
+#part1 #wzwlp{ border:2px solid #000; border-width:2px 0; clear:both; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/part1_l_bg.png) repeat-x 0 0; padding-bottom:15px;}
+#part1 #wzwlp .hd{ height:39px; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/mzwlp.png) 0 center no-repeat; padding:18px 10px 0 18px; width:435px;}
+#part1 #wzwlp .hd h2{ float:left;}
+#part1 #wzwlp .hd h2 a{ display:block; width:94px; height:18px; text-indent:-999em; overflow:hidden;}
+#part1 #wzwlp .hd .link{ padding-top:2px;}
+#part1 #wzwlp .hd .link a{ float:right; font-size:12px;}
+#part1 #wzwlp .hd .link a:hover{ color:#c00;}
+#part1 #wzwlp .mleft{ width:231px; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/dotline.png) right 0 repeat-y; float:left;}
+#part1 #wzwlp .mleft dl{ overflow:hidden; zoom:1; margin-bottom:13px;}
+#part1 #wzwlp .mleft dt{ float:left; width:52px; margin-right:10px; text-align:center;}
+#part1 #wzwlp .mleft dt a{ color:#000;}
+#part1 #wzwlp .mleft dt a:hover{color:#c00;}
+#part1 #wzwlp .mleft dt img{ border:1px solid #ddd; margin-bottom:5px; display:block;}
+#part1 #wzwlp .mleft dd{ float:left; width:126px; border:1px solid #ddd; padding:10px; position:relative;}
+#part1 #wzwlp .mleft .cur{ width:7px; height:13px; background-position:-42px -255px; position:absolute; top:10px; left:-6px; font-size:0;}
+#part1 #wzwlp .mleft h3{ font-weight:700; font-size:14px; padding-top:5px;}
+#part1 #wzwlp .mleft .phb{ background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/part1_num.png) no-repeat 0 5px; margin-top:10px;}
+#part1 #wzwlp .mleft .phb p{ color:#666; width:180px; position:relative; font-size:12px; line-height:26px; overflow:hidden; zoom:1; padding-left:25px;}
+#part1 #wzwlp .mleft .phb p a{color:#333; float:left;}
+#part1 #wzwlp .mleft .phb p a:hover{color:#c00;}
+#part1 #wzwlp .mleft .phb p em{color:#de7699;}
+#part1 #wzwlp .mleft .phb p .r{ display:block; width:60px; text-align:right; float:right;}
+
+#part1 #wzwlp .mright{ width:231px; float:right;}
+#part1 #wzwlp .mright .pk{ background-position:-133px -172px; overflow:hidden; zoom:1;}
+#part1 #wzwlp .mright .l{ float:left;}
+#part1 #wzwlp .mright .r{ float:right;}
+#part1 #wzwlp .mright .pk li{ width:105px; text-align:center; line-height:20px; overflow:hidden; zoom:1;}
+#part1 #wzwlp .mright .pk li img{ border:1px solid #ddd; width:70px; margin:0 auto 8px; display:block;}
+#part1 #wzwlp .mright .pk li a{ color:#333;}
+#part1 #wzwlp .mright .pk li a:hover{color:#c00;}
+#part1 #wzwlp .mright .pk li .ping{ color:#c4171b;}
+#part1 #wzwlp .mright .comment{ width:63px; height:37px; background-position:-12px -43px; line-height:18px; margin:8px 0 0 20px; text-align:right; overflow:hidden;}
+#part1 #wzwlp .comment .option{ overflow:hidden; zoom:1; height:18px; line-height:18px; text-align:center;}
+#part1 #wzwlp .comment .option .count{ float:right; width:35px;}
+#part1 #wzwlp .comment .option .digg{ float:left; width:23px;}
+#part1 #wzwlp .comment .option a{ color:#343434;}
+#part1 #wzwlp .comment .option a:hover{ color:#c00;}
+#part1 #wzwlp .comment .zt .digg,#part1 #wzwlp .comment .zt .digg a{ color:#dd3261;}
+
+#part1 #wzwlp .mright h3{font-weight:700; font-size:14px; margin:20px 0 10px 10px;}
+#part1 #wzwlp .mright dl{ margin-left:10px;}
+#part1 #wzwlp .mright dt{ width:80px; position:relative; border:1px solid #ddd; text-align:center; float:left; margin-right:8px; }
+#part1 #wzwlp .mright dt .ping{ position:absolute; left:0px; top:0px; width:29px; height:29px; background-position:-467px -19px; border:0; z-index:999;}
+#part1 #wzwlp .mright dt img{ display:block;}
+#part1 #wzwlp .mright dt span{ display:block; height:19px; line-height:19px; background-position:-14px -90px;}
+#part1 #wzwlp .mright dt a{ color:#FFF;}
+#part1 #wzwlp .mright dd{ float:left; line-height:20px;}
+#part1 #wzwlp .mright dd span{ color:#c5161d; font-weight:700;}
+
+#part1 #wzwlp .mright .t1{ clear:both; padding:15px 0 0 5px; overflow:hidden; zoom:1;}
+#part1 #wzwlp .mright .t1 img{ background-color:#fff; padding:1px; border:1px solid #ddd; display:block; width:40px; margin:0 auto;}
+#part1 #wzwlp .mright .t1 .pic{ width:50px; text-align:center; display:block; float:left; font-size:12px;}
+#part1 #wzwlp .mright .t1 a{ color:#333;}
+#part1 #wzwlp .mright .t1 a:hover{color:#c00;}
+#part1 #wzwlp .mright .t1 .txt{ border:1px solid #f5bebe; float:right; width:133px; margin-left:10px; position:relative; color:#666; padding:5px 15px; line-height:22px; *line-height:20px;}
+#part1 #wzwlp .mright .t1 .cur{ width:8px; height:14px; background-position:-42px -201px; position:absolute; left:-6px; top:10px; font-size:0;}
+
+#part1 #wzwlp .mright .sy{ color:#666; clear:both; margin-left:10px; line-height:22px; margin-top:15px; clear:both; *line-height:20px;}
+#part1 #wzwlp .mright .sy a{ color:#333; margin:0 8px;}
+#part1 #wzwlp .mright .sy a:hover{color:#c00;}
+#part1 #wzwlp .mright .sy span{ color:#333; margin-right:5px;}
+#part1 #wzwlp .mright .sy .red{ color:#c5161d;}
+#part1 #wzwlp .mright .sy .sq{ margin:0;}
+
+#part1 #mldjt{ background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/part1_l_bg.png) repeat-x 0 0; padding-top:15px; width:232px; float:left;}
+#part1 #mldjt .hd,#part1 #mldjt .bd{ background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/dotline.png) right 0 repeat-y;}
+#part1 #mldjt .hd h2{ height:35px; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/mldjt.png) no-repeat; width:214px; padding-left:18px;}
+#part1 #mldjt .hd h2 a{ float:left; display:block; width:91px; height:21px; text-indent:-999em; overflow:hidden;}
+#part1 #mldjt .pic{ float:left; margin-right:10px;}
+#part1 #mldjt .txt{ border:1px solid #ddd; width:100px; position:relative; float:left; padding:6px 10px;}
+#part1 #mldjt .cur{ width:7px; height:13px; font-size:0; left:42px; top:255px;background-position:-42px -255px; position:absolute; top:14px; left:-6px;}
+#part1 #mldjt ul{ clear:both; padding-top:10px;}
+#part1 #mldjt .txt .ting{ color:#C5161D;}
+
+#part1 #qgyjy{ background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/part1_l_bg.png) repeat-x 0 0; padding-top:15px; width:218px; float:left; padding-left:15px;}
+#part1 #qgyjy .hd h2{ height:35px; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/qgyjy.png) no-repeat; padding-left:18px;}
+#part1 #qgyjy .hd h2 a{float:left; display:block; width:91px; height:21px; text-indent:-999em; overflow:hidden;}
+#part1 #qgyjy .details{ color:#666; padding:10px 0 5px;}
+#part1 #qgyjy ul{ clear:both;}
+#part1 #qgyjy ul a{ color:#333; background-position:-479px -66px; padding-left:12px; line-height:22px;}
+#part1 #qgyjy ul a:hover{color:#c00;}
+#part1 .qgypic{ width:215px; height:104px; position:relative;}
+#part1 .qgypic .cover{ width:215px; height:20px; position:absolute;left:0; bottom:0; display:block; background-color:#000; filter:alpha(opacity=60); opacity:0.6;}
+#part1 .qgypic .infotxt{width:215px; height:20px; line-height:20px; position:absolute; left:0; bottom:0; display:block; text-align:center; color:#fff;}
+
+#part1 #qgyjy h3{ font-size:14px; font-weight:700; padding:8px 5px;}
+#part1 .yscx_int ul{ overflow:hidden; zoom:1; margin-bottom:5px;}
+#part1 .yscx_int li{ float:left; margin-right:5px;}
+#part1 .yscx_int li.first{ width:70px;}
+
+#part1 .ads{ clear:both; overflow:hidden; zoom:1; padding-bottom:16px; width:480px; margin-left:-13px;}
+#part1 .ads li{ width:240px; float:left;}
+#part1 .ads li.last{ margin-right:0;}
+
+/*----------------------¶À¼Ò²ß»®------------------*/
+#djch{ margin:0 auto; width:960px;}
+#djch .hd{ margin-top:30px;  position:relative; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title2_line1.png) repeat-x 0 21px; height:26px;}
+#djch .hd h2{ background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title01.png) no-repeat 0 0; width:221px; height:26px; text-indent:-999em; position:absolute; left:0; top:0; overflow:hidden;}
+#djch .bd li{ float:left; margin-right:18px;}
+#djch .bd{ overflow:hidden; zoom:1;}
+#djch .bd .col1{ width:252px; height:270px;}
+#djch .bd .col1 img{ margin:0; float:left;}
+#djch .bd .col1 span{ display:block; background-position:-472px -430px; background-color:#fafafa; border:1px solid #ddd; height:28px; line-height:28px; margin:0; width:215px; float:left; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-size:18px; padding-left:35px;}
+#djch .bd .col2{ width:265px; padding-top:20px; color:#666;}
+#djch .bd .col2 img{ border:1px solid #ddd;}
+#djch .bd .col2 .a1{ overflow:hidden; zoom:1;}
+#djch .bd .col2 .a1 .pic{ float:left;}
+#djch .bd .col2 .a1 .txt{ float:right; width:122px;}
+#djch .bd .col2 h3{ padding-left:30px; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-size:18px; color:#333; margin:20px 0 10px;}
+#djch .bd .col2 .a1 .txt h3{ background-position:-478px -366px; }
+#djch .bd .col2 h3 a{ color:#333;}
+#djch .bd .col2 h3 a:hover{color:#c00;}
+#djch .bd .col2 .a2{ overflow:hidden; zoom:1; padding-top:5px;}
+#djch .bd .col2 .a2 .pic{ float:right;}
+#djch .bd .col2 .a2 .txt{ float:left; width:122px;}
+#djch .bd .col2 .a2 .txt h3{ background-position:-477px -401px;}
+#djch .bd .col3{ width:122px; margin-right:0; padding-top:20px; float:right;}
+#djch .bd .col3 img{ border:1px solid #ddd;}
+#djch .bd .col3 h5,#djch .bd .col3  p{ font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-size:18px; margin:5px 0;}
+#djch .bd .col3 h5 a{ color:#333;}
+#djch .bd .col3 h5 a:hover{ color:#c00;}
+#djch .bd .col3  p{ margin-bottom:15px;}
+#djch .bd .col3  p span{ color:#c5161d;}
+#djch .bd .col3  select{ width:122px;}
+#djch .bd .col3 .pictxt{ width:122px; height:162px; display:block;}
+#djch .bd .col3 .pictxt span{ display:block; text-align:center; width:120px; left:1px; bottom:1px; height:29px; height:29px; font-size:12px;}
+#djch .bd .col3 .pictxt a.infotxt { display:block; text-align:center; width:120px; left:1px; bottom:1px; height:29px; height:29px; font-size:12px;}
+
+
+/*----------------------Ð´ÕæÍ¼¿â------------------*/
+#xztk{ margin:0 auto; width:960px;}
+#xztk .hd{ overflow:inherit; margin-top:20px; position:relative;  margin-bottom:4px; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title2_line2.png) repeat-x 0 22px; height:26px;}
+#xztk .hd h2{ background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title02.png) no-repeat 0 0; width:185px; height:26px;position:absolute; left:0; top:0; overflow:hidden; float:left; padding-left:36px;}
+#xztk .hd h2 a{ text-indent:-999em; display:block; width:95px; height:23px; overflow:hidden;}
+#xztk .hd .link{ float:right; padding-right:10px;}
+#xztk .bd{ padding-top:30px;}
+#xztk img{ border:1px solid #ddd; display:block;}
+#xztk ul{ float:left; width:700px;}
+#xztk li{ width:122px; margin-right:18px; float:left; text-align:center; display:inline;}
+#xztk li a{ color:#333; line-height:32px;}
+#xztk li a:hover{color:#c00;}
+#xztk .tu{ width:252px; float:right; overflow:hidden;}
+#xztk .tu span{ width:250px; text-align:center; font-size:14px; left:1px; bottom:1px;}
+#xztk .pictxt a.infotxt{ text-align:center; width:100%; font-size:14px;}
+
+.adsbanner{ margin:10px auto; width:960px;}
+.adsbanner1{ margin:0 auto 10px; width:960px;}
+
+/*----------------------Ê±ÉÐ·þÊÎ------------------*/
+#ssfs{ margin:0 auto; width:960px;}
+
+#ssfs .hdmode h2{ background-image:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/pic8.png);}
+
+#ssfs #wpzl .hd h2{ background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title04.png) no-repeat 15px 0; height:20px; text-indent:-999em; margin-bottom:5px;}
+#ssfs #wpzl .bd{padding:5px 0 5px 5px;}
+#ssfs #wpzl .bd ul{ overflow:hidden; zoom:1;}
+#ssfs #wpzl .bd li{ padding:0 10px 15px 0; text-align:center; float:left; height:70px; overflow:hidden;}
+
+#ssfs #lxzj .hd h2{ background-image:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title05.jpg); text-indent:0; padding-left:14px;}
+#ssfs #lxzj .hd h2 a{ display:block; width:75px; height:21px; text-indent:-999em; overflow:hidden;}
+#ssfs #lxzj .bd{ padding-bottom:35px;}
+#ssfs #lxzj .bd img{ width:260px; margin:20px auto 15px; display:block; border:1px solid #ddd;}
+#ssfs #lxzj .bd h2{ font-size:14px; font-weight:700; color:#333; padding-left:25px; background-position:-470px -236px; width:240px; margin:0 auto 5px;}
+#ssfs #lxzj .bd h2 a{ color:#333;}
+#ssfs #lxzj .bd h2 a:hover{color:#c00;}
+#ssfs #lxzj .bd p{ color:#666; width:260px; margin:0 auto; line-height:22px;}
+
+#ssfs #ssqzs .hd{ background-color:#f6f6f6;}
+#ssfs #ssqzs .hd h2{ background-image:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title06.png); text-indent:0; padding-left:14px;}
+#ssfs #ssqzs .hd h2 a{ display:block; width:95px; height:21px; text-indent:-999em; overflow:hidden;}
+#ssfs #ssqzs .bd{ padding-bottom:20px;}
+#ssfs #ssqzs .bd .txt1{ overflow:hidden; zoom:1; padding:20px 0 15px 15px;}
+#ssfs #ssqzs .bd .txt1 .pic{ float:left; margin-right:10px;}
+#ssfs #ssqzs .bd .txt1 .txt{ width:165px; float:left; color:#666; line-height:20px;}
+#ssfs #ssqzs .bd .txt1 h2,#ssfs #ssqzs .bd .txt1 h2 a{ color:#333; font-weight:700;}
+#ssfs #ssqzs .bd .txt1 h2 a:hover{color:#c00;}
+#ssfs #ssqzs .bd .txt1 .wb{ background-position:16px -461px; margin-left:10px; color:#c5161d;}
+#ssfs #ssqzs .bd .txt1 .wb span{ margin-right:15px;}
+#ssfs #ssqzs .listtxt{ margin-left:15px;}
+
+#ssfs .right{ width:630px; padding:15px 0 0 20px;}
+#ssfs .col_l{ width:362px; float:left; overflow:hidden; zoom:1; height:653px;}
+#ssfs .col_l .listtxt2{ width:250px; float:left;}
+#ssfs .col_l .tu{ width:90px; border:1px solid #ddd; float:right; margin-top:5px;}
+#ssfs .col_l .tu img{ display:block;}
+#ssfs .col_l .tu span{ height:24px; line-height:24px; text-align:center; background-color:#fafafa; display:block; border-top:1px solid #ddd;}
+#ssfs .col_l .tu a{ color:#333;}
+#ssfs .col_l .tu a:hover{color:#c00;}
+#ssfs .col_r{ width:251px; float:right; overflow:hidden; zoom:1; height:653px;}
+
+#ssfs #xfs .bd{ background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/star_ico.png) no-repeat 10px 15px; padding:5px 20px 0px 45px; color:#666; line-height:22px; width:182px;}
+#ssfs #xfs .bd img{ border:1px solid #ddd; margin:5px 0;}
+#ssfs #xfs .bd h3 a{ color:#333; font-weight:700; background-position:-472px -236px; padding-left:25px;}
+#ssfs #xfs .bd h3 a:hover{color:#c00;}
+#ssfs #xfs .bd p{ padding-bottom:20px;}
+
+#ssfs #rljp{ clear:both; height:290px; overflow:hidden;}
+#ssfs #rljp .hd{ background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title13.png) no-repeat; height:19px; margin:13px 0 20px;}
+#ssfs #rljp .hd h2{ float:left;}
+#ssfs #rljp .hd h2 a{ text-indent:-999em; display:block; width:72px; height:18px; overflow:hidden;}
+#ssfs #rljp .hd .link{ float:right; padding:4px 10px 0 0;}
+#ssfs #rljp .bd li img{ border:1px solid #ddd; display:block; }
+#ssfs #rljp .bd li{ width:152px; margin-right:8px; float:left; text-align:center; line-height:30px;}
+#ssfs #rljp .bd li.last{ width:310px; margin-right:0; position:relative;}
+#ssfs #rljp .bd .picdw{ height:200px;position:relative;}
+#ssfs #rljp .bd .picdw .m1{ position:absolute; left:0; top:0;}
+#ssfs #rljp .bd .picdw .m2{ position:absolute; left:157px; top:0;}
+#ssfs #rljp .bd .picdw .m3{ position:absolute; left:157px; top:105px;}
+#ssfs #rljp .bd .picdw .m4{ position:absolute; left:235px; top:105px;;}
+#ssfs #rljp .bd a{ color:#333;}
+#ssfs #rljp .bd a:hover{color:#c00;}
+
+#ssfs .lxqytxt{ clear:both; padding-top:10px; height:78px; overflow:hidden; width:270px;}
+#ssfs .lxqytxt td{ font-size:0;}
+#ssfs .lxqytxt td a{ background-color:#fff; color:#333; font-size:14px; line-height:26px;}
+#ssfs .lxqytxt td a:hover{color:#c00;}
+
+/*----------------------ÃÀÈÝÃÀÌå------------------*/
+#mrmt{ margin:0 auto; width:960px;}
+
+#mrmt .hdmode h2{ background-image:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title07.png);}
+
+#mrmt .left{ width:695px;}
+
+#mrmt #mrbb .hd h2{ background-image:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title08.png); text-indent:0; padding-left:14px;}
+#mrmt #mrbb .hd h2 a{ display:block; width:75px; height:21px; text-indent:-999em; overflow:hidden;}
+#mrmt #mrbb .bd{ padding:15px 0 25px 15px; width:280px;}
+#mrmt #mrbb .pic{ float:left; margin-right:5px;}
+#mrmt #mrbb .txt{ float:left; width:150px;}
+#mrmt #mrbb .tiptxt{ width:118px; height:61px; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/tipbg.png) no-repeat; line-height:22px; color:#666; padding:8px 10px 8px 15px;}
+#mrmt #mrbb .txt h3{ font-weight:700; color:#333;}
+#mrmt #mrbb .txt h3 a{ color:#333;}
+#mrmt #mrbb .txt h3 a:hover{color:#c00;}
+#mrmt #mrbb .txt li span{ margin-right:5px;}
+#mrmt #mrbb .txt li a{ margin-right:3px; color:#333; line-height:22px;}
+#mrmt #mrbb .txt li a:hover{color:#c00;}
+#mrmt #mrbb .txt ul{ margin:5px 0 0 10px;}
+
+#mrmt #fsmrj .hd,#mrmt #wbmrzj .hd{ background-color:#f6f6f6;}
+#mrmt #fsmrj .hd h2{ background-image:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title09.png); text-indent:0; padding-left:14px;}
+#mrmt #fsmrj .hd h2 a{ display:block; width:95px; height:21px; overflow:hidden; text-indent:-999em;}
+#mrmt #fsmrj .bd{ padding:15px 0 25px 15px; width:280px;}
+#mrmt #fsmrj .fsbox{ height:95px; overflow:hidden; zoom:1;}
+#mrmt #fsmrj .pic{ width:100px; height:75px; border:1px solid #ddd; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/jingdu.png) no-repeat 0 bottom; padding:3px 3px 0 3px; display:block; float:left; margin-right:9px; overflow:hidden; zoom:1;}
+#mrmt #fsmrj .txt{ width:160px; float:left; color:#666; padding-top:10px; line-height:22px;}
+#mrmt #fsmrj .txt span{ color:#333;}
+#mrmt #fsmrj .txt span em{font-weight:700; }
+#mrmt #fsmrj ul{ clear:both;}
+#mrmt #fsmrj ul li{background-position:-469px -204px; }
+#mrmt #fsmrj ul li a{ color:#333; line-height:22px; padding-left:28px;}
+#mrmt #fsmrj ul li a:hover{color:#c00;}
+
+#mrmt #wbmrzj .hd h2{ background-image:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title10.png); text-indent:0; padding-left:14px;}
+#mrmt #wbmrzj .hd h2 a{display:block; width:108px; height:21px; overflow:hidden; text-indent:-999em}
+#mrmt #wbmrzj .bd{ padding:15px 0 20px 15px; width:280px;}
+#mrmt #wbmrzj .say li{ overflow:hidden; zoom:1; padding-bottom:10px;}
+#mrmt #wbmrzj .say .pic{ float:left; margin-right:10px;}
+#mrmt #wbmrzj .say .pic img{ border:1px solid #ddd;}
+#mrmt #wbmrzj .say .txt{ border:1px solid #ddd; position:relative; width:192px; height:39px; float:left; background-color:#fff; padding:8px 8px 5px; color:#666;}
+#mrmt #wbmrzj .say .txt .cur{ background-position:-42px -254px; width:6px; height:14px; font-size:0; position:absolute; left:-6px; top:10px;}
+#mrmt #wbmrzj .say .txt .ting{ color:#c5161d;}
+
+
+#mrmt #wbmrzj .zj{ overflow:hidden; zoom:1; margin:5px 0;}
+#mrmt #wbmrzj .zj li{ width:50px; float:left; margin-right:5px; text-align:center; line-height:30px; display:inline; margin-right:3px;}
+#mrmt #wbmrzj .zj li img{ border:1px solid #ddd; display:block;}
+#mrmt #wbmrzj .zj a{ color:#333;}
+#mrmt #wbmrzj .zj a:hover{color:#c00;}
+
+#mrmt #wbmrzj .wb{ clear:both;}
+#mrmt #wbmrzj .wb li{ background-position:-15px -457px; line-height:22px; padding-left:20px;}
+
+#mrmt .col_l .leftinner{ height:948px;}
+#mrmt .col_r{ width:360px; padding:25px 0 0 20px; float:left; overflow:hidden; height:945px;}
+#mrmt #mldpd .hd{ margin:10px 0;}
+#mrmt #mldpd .hd h2{ width:94px; height:23px; float:left; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title19.png) no-repeat; text-indent:-999em;}
+#mrmt #mldpd .hd .link{ float:right;}
+#mrmt #mldpd .bd{ overflow:hidden; zoom:1; line-height:22px;}
+#mrmt #mldpd .bd h5{ color:#333; font-size:14px; font-weight:700; margin:5px 0; clear:both;}
+#mrmt #mldpd .bd h5 a{ color:#333;}
+#mrmt #mldpd .bd h5 a:hover{color:#c00;}
+#mrmt #mldpd .bd p{ color:#666;}
+
+#mrmt #xpss{ clear:both; height:285px;}
+#mrmt #xpss .hd{ overflow:hidden; zoom:1; height:25px; margin-bottom:10px;}
+#mrmt #xpss .hd h2{ float:left; width:83px; height:25px; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title20.png) no-repeat;}
+#mrmt #xpss .hd h2 a{ text-indent:-999em; display:block; width:77px; height:23px;}
+#mrmt #xpss .hd .link{ float:left; padding-top:7px;}
+#mrmt #xpss .hd .link a{ color:#333; margin:0 8px;}
+#mrmt #xpss .hd .link a:hover{color:#c00;}
+#mrmt #xpss .hd .link .enter{ color:#c5161d; background-position:-480px -101px; padding-left:12px;}
+#mrmt .listxtbox{ overflow:hidden; zoom:1; margin-top:-10px;}
+#mrmt .left_side{ float:left;}
+#mrmt .right_side{ float:right;}
+
+#mrmt #xpss .bd{ background-color:#f6f6f6; padding:0 0 17px 10px; width:680px;}
+#mrmt #xpss .left{ width:270px;border:1px solid #ddd; color:#666; padding:0 0 5px 0; margin-right:11px; background-color:#fff;}
+#mrmt #xpss .left img{border-bottom:1px solid #ddd;}
+#mrmt #xpss .left h3{ margin:0 15px; color:#333; font-weight:700; }
+#mrmt #xpss .left h3 a{ color:#333;}
+#mrmt #xpss .left h3 a:hover{color:#c00;}
+#mrmt #xpss .left p{ margin:0 15px; line-height:22px;}
+
+#mrmt #xpss .mid{ width:232px; height:234px; float:left; position:relative;}
+#mrmt #xpss .mid #pllt1{ position:absolute; left:0; top:0;}
+#mrmt #xpss .mid #pllt2{ position:absolute; right:0; top:0;}
+#mrmt #xpss .mid #pllt3{ position:absolute; left:0; top:79px;}
+#mrmt #xpss .mid #pllt4{ position:absolute; left:79px; top:79px;}
+#mrmt #xpss .mid #pllt5{ position:absolute; right:0; top:79px;}
+#mrmt #xpss .mid #pllt6{ position:absolute; left:0; bottom:0;}
+#mrmt #xpss .mid #pllt7{ position:absolute; right:0; bottom:0;}
+#mrmt #xpss .mid #pllt1 div{ position:absolute; left:0; top:0;}
+#mrmt #xpss .mid #pllt2 div{ position:absolute; right:0; top:0; }
+#mrmt #xpss .mid #pllt3 div{ position:absolute; left:0; bottom:0;}
+#mrmt #xpss .mid #pllt4 div{ position:absolute; left:0; bottom:0;}
+#mrmt #xpss .mid #pllt5 div{ position:absolute; right:0; bottom:0;}
+#mrmt #xpss .mid #pllt6 div{ position:absolute; left:0; bottom:0; }
+#mrmt #xpss .mid #pllt7 div{ position:absolute; right:0; bottom:0;}
+#mrmt #xpss .mid img{ border:1px solid #ddd;}
+#mrmt #xpss .mid p{ position:relative; background-color:#333;}
+#mrmt #xpss .mid div div{ border:3px solid #f6c4c4; overflow:hidden;}
+#mrmt #xpss .mid div div img{ border:0;}
+#mrmt #xpss .mid p span{background:rgba(0,0,0,0.6);filter: progid:DXImageTransform.Microsoft.gradient( GradientType = 0,startColorstr = '#60000000',endColorstr = '#60000000')\9; height:30px; line-height:30px; color:#fff; font-size:16px; position:absolute; left:0; bottom:0; display:block; text-align:center; width:100%;}
+#mrmt #xpss .mid p a{ color:#fff; font-size:12px;}
+#mrmt #xpss .mid p span.cover{ height:30px; line-height:30px; color:#fff; font-size:16px; position:absolute; left:0; bottom:0; display:block; text-align:center; width:100%;background-color:#000;filter:alpha(opacity=60); opacity:0.6;}
+#mrmt #xpss .mid p a.infotxt{ height:30px; line-height:30px; color:#fff; font-size:16px; position:absolute; left:0; bottom:0; display:block; text-align:center; width:100%;}
+
+
+#mrmt #xpss .right{ width:152px; height:231px; overflow:hidden; margin-top:0;}
+#mrmt #xpss .right span{ width:152px; height:29px; line-height:29px; text-align:center; font-size:12px;}
+
+#mrmt #hzpk .hd{ margin:15px 15px 10px; overflow:hidden;zoom:1; width:220px;}
+#mrmt #hzpk .hd h2{ background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title12.png) no-repeat; width:89px; height:29px; float:left;}
+#mrmt #hzpk .hd h2 a{ text-indent:-999em; display:block; overflow:hidden; width:89px; height:29px;}
+#mrmt #hzpk .hd .link{ float:right; margin-top:6px;}
+#mrmt #hzpk .hd .link a{ color:#333;}
+#mrmt #hzpk .hd .link a:hover{color:#c00;}
+#mrmt #hzpk .hd .link span{ margin:0 8px;}
+
+#mrmt #hzpk{ height:85px; *height:100px;}
+#mrmt #hzpk .bd{ margin-left:20px; overflow:visible; width:220px;}
+#mrmt #hzpk .bd .txt{ color:#adadad; width:157px; border:1px solid #a2c9e2; height:21px; line-height:21px; margin-right:10px;}
+#mrmt #hzpk .bd .searchbtn{ color:#333; width:42px; height:21px; background-position:-110px -8px; border:0; cursor: pointer;}
+
+#mrmt .title1{ background-position:-477px -263px; padding-left:20px; width:205px; line-height:20px; height:20px;}
+#mrmt .rnav{ background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/navbgline.png) repeat-x 0 30px; width:230px; margin:0 auto 15px; overflow:hidden; zoom:1; height:31px;}
+#mrmt .rnav a{ display:block; width:38px; float:left; text-align:center; color:#000; height:31px; line-height:31px;}
+#mrmt .rnav a.on{ color:#c5161d; background-position:-99px -46px; width:40px; font-weight:700; cursor:default;}
+#mrmt .rnav a.on:hover{ text-decoration:none;}
+
+#mrmt #rqdpphb .txtnr{ margin:0 0 0 15px; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/num2.png) no-repeat; padding-left:32px;clear:both;}
+#mrmt #rqdpphb .num1{ height:85px; overflow:hidden; zoom:1; *height:82px; line-height:22px;}
+#mrmt #rqdpphb .txtnr .num1 .txt{ width:100px; float:left;}
+#mrmt #rqdpphb .pic{ float:left; margin-right:12px;}
+#mrmt #rqdpphb .txtnr img{ border:1px solid #ddd;}
+#mrmt #rqdpphb .txtnr a{ color:#333; zoom:1;}
+#mrmt #rqdpphb .txtnr a:hover{color:#c00;}
+#mrmt #rqdpphb .txtnr .dianping{ color:#666; }
+#mrmt #rqdpphb li{ height:26px; position:relative; width:190px;}
+#mrmt #rqdpphb li.m1 .dianping{ position:absolute; right:0; top:0;}
+
+#mrmt #mfsy .bd{ width:225px; padding:15px 0 0 15px;}
+#mrmt #mfsy .bd .pic{ float:left; margin-right:10px;}
+#mrmt #mfsy .bd .pic img{ border:1px solid #ddd; }
+#mrmt #mfsy .bd .txt{ float:left; width:135px; line-height:20px;}
+#mrmt #mfsy .mflq{ width:35px; height:36px; background-position:-111px -94px; float:left; margin-right:8px;}
+#mrmt #mfsy .bd .txt span{ font-weight:700;}
+#mrmt #mfsy .bd .txt h3 a{ color:#333;}
+#mrmt #mfsy .bd .txt h3 a:hover{color:#c00;}
+#mrmt #mfsy .bd .txt p{ color:#666;}
+#mrmt #mfsy ul{ clear:both; padding:10px 0; *padding-top:0;}
+#mrmt #mfsy ul a{ margin-right:5px;}
+#mrmt #mfsy ul span{ margin-right:5px;}
+#mrmt #mfsy ul .red{ color:#c5161d;}
+
+#mrmt .bnav{ background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/navbgline.png) repeat-x 0 30px; width:230px; margin:0 auto; overflow:hidden; zoom:1; height:31px;}
+#mrmt .bnav a{ display:block; width:66px; float:left; text-align:center; color:#000; height:31px; line-height:31px;}
+#mrmt .bnav a.on{ color:#c5161d; background-position:-152px -46px; font-weight:700; cursor:default;}
+#mrmt .bnav a.on:hover{ text-decoration:none;}
+
+#mrmt #bzhr .nr{ width:220px; margin:15px auto; border:1px solid #f5bebe; background-color:#fff; padding:10px 5px 5px;  overflow:hidden; zoom:1; line-height:22px;}
+#mrmt #bzhr .nr .pic{ width:75px; float:left; text-align:center; margin-right:15px;}
+#mrmt #bzhr .nr .txt{ float: left; width:120px; color:#666;}
+#mrmt #bzhr .nr h4{ font-weight:700;}
+#mrmt #bzhr .nr a{ color:#333;}
+#mrmt #bzhr .nr a:hover{color:#c00;}
+#mrmt #bzhr .nr a.d{ color:#1d569c;}
+#mrmt #bzhr .nr a.d:hover{color:#c00;}
+#mrmt #bzhr .nr img{ display:block;}
+
+#mrmt #bzhr dl{ margin-top:15px; width:245px; overflow:hidden; zoom:1;}
+#mrmt #bzhr dt{ float:right; width:60px; text-align:center;}
+
+#mrmt #bzhr dt img{ padding:1px; border:1px solid #ddd; background-color:#fff; display:block; width:38px; margin:0 auto 5px;}
+#mrmt #bzhr dt a{ color:#333; line-height:10px;}
+#mrmt #bzhr dt a:hover{color:#c00;}
+#mrmt #bzhr dd{ float:left;border:1px solid #f5bebe; background-color:#fff; padding:8px 5px 7px; position:relative; width:155px; margin-left:10px; display:inline;}
+#mrmt #bzhr .cur{ width:6px; height:13px; font-size:0; background-position:-43px -232px; position:absolute; top:10px; right:-6px; _right:-7px; overflow:hidden;}
+
+#mrmt #bzhr .nr .w38{ width:38px;}
+#mrmt #bzhr .nr .w157{ width:157px;}
+#mrmt #bzhr .txlist{ background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/huidotline.png) repeat-x 0 8px; clear:both; width:217px; overflow:hidden; zoom:1; padding-top:22px; margin:0 auto;}
+#mrmt #bzhr .txlist img{ display:block; border:1px solid #ddd;}
+#mrmt #bzhr .txlist li{ width:52px; float:left; margin-right:3px; text-align:center;}
+#mrmt #bzhr .txlist li.last{ margin-right:0;}
+#mrmt #bzhr .nr h5 a{ color:#1D569C;}
+#mrmt #bzhr .nr h5 a:hover{ color:#c00;}
+#mrmt #bzhr #tabs0,#mrmt #bzhr #tabs1,#mrmt #bzhr #tabs2{ height:402px; overflow:hidden;}
+
+#mrmt .ads{ width:240px; display:block; margin:20px auto; *margin:16px auto;}
+#mrmt .right{ margin-top:15px; height:1240px;}
+
+#mrmt #smdiv{ *margin-top:-3px}
+
+/*----------------------Çé¸ÐÊÓÏß------------------*/
+#qgsx{ margin:0 auto; width:960px;}
+
+#qgsx .hdmode h2{ background-image:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title14.png);}
+
+#qgsx #rht{ background:#f6f6f6 url(http://mat1.gtimg.com/lady/2011nvxingindex/images/leftsidebar_bg.png) no-repeat 0 -15px;}
+#qgsx #rht .listtxt{ margin-left:15px; padding-top:10px;}
+#qgsx #rht .hd h2{ background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title21.png) no-repeat; width:70px; height:20px; text-indent:-999em; margin:5px 0 5px 15px;}
+#qgsx #rht .bd{ background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title_bottomline.png) no-repeat 0 bottom; padding-bottom:30px;}
+
+#qgsx #nrhyq{ background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/bg3.png) no-repeat; width:296px; height:169px;}
+#qgsx #nrhyq .hd{ padding:20px 10px 0 49px; width:230px;}
+#qgsx #nrhyq .hd h2{ float:left;}
+#qgsx #nrhyq .hd h2 a{ display:block; width:94px; height:21px; text-indent:-999em; overflow:hidden;}
+#qgsx #nrhyq .hd .link{ float:right; padding-top:2px;}
+#qgsx #nrhyq .bd{ padding:20px 0 0 85px;}
+
+#qgsx #nhna{ color:#666; position:relative;}
+#qgsx #nhna h4{ font-weight:700; color:#333;}
+#qgsx #nhna h4 a{ color:#333;}
+#qgsx #nhna h4 a:hover{color:#c00;}
+
+#qgsx #nhna div{ width:175px;}
+#qgsx #nhna div p a{ color:#c5161d; margin-left:5px;}
+#qgsx #nhna .nanhuan{ position:absolute; left:95px; top:30px;}
+#qgsx #nhna .nvai{ position:absolute; left:40px; top:115px;}
+
+#qgsx #nhna{ background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/bg4.png) no-repeat; width:296px; height:281px;}
+
+#qgsx .mid{ width:370px; float:left; padding:20px 0 0 20px;}
+#qgsx .mid .mod2{ margin:20px 0;}
+
+#qgsx .right{ margin-top:15px; height:800px; overflow:hidden; zoom:1;}
+#qgsx #wbqgzj dl{ width:230px; margin:15px auto 0; overflow:hidden; zoom:1;}
+#qgsx #wbqgzj dt{ float:left; width:52px;}
+#qgsx #wbqgzj dt img{ border:1px solid #ddd;}
+#qgsx #wbqgzj dd{ float:right; width:150px; padding:7px; border:1px solid #f5bebe; background-color:#fff; position:relative;}
+#qgsx #wbqgzj .cur{ width:6px; height:13px; font-size:0; background-position:-41px -201px; position:absolute; left:-6px; top:10px;}
+#qgsx #wbqgzj .shouting{ color:#c5161d; margin-left:5px;}
+
+#qgsx #wbqgzj .tx{ margin:20px 0 15px 12px; overflow:hidden; zoom:1;}
+#qgsx #wbqgzj .tx li{ width:52px; float:left; margin-right:5px; text-align:center; line-height:30px;}
+#qgsx #wbqgzj .tx a{ color:#333;}
+#qgsx #wbqgzj .tx a:hover{color:#c00;}
+#qgsx #wbqgzj .tx img{ display:block; border:1px solid #ddd;}
+
+#qgsx #wbqgzj .say{ line-height:22px; margin-left:12px; margin-bottom:20px;}
+#qgsx #wbqgzj .say li{ background-position:-11px -392px; padding-left:20px;}
+#qgsx #wbqgzj .say li a{ margin:0 5px;}
+
+#qgsx #qgntwzj{ padding-bottom:15px;}
+#qgsx #qgntwzj .listtxt{ margin:10px 0 10px 10px;}
+#qgsx #qgntwzj .listtxt li{ height:22px; position:relative; width:225px;}
+#qgsx #qgntwzj .listtxt span{ position:absolute; right:0; top:0;}
+#qgsx #qgntwzj .listtxt .undeal{ color:#1d569c;}
+#qgsx #qgntwzj .listtxt .deal{ color:#db7276;}
+#qgsx #qgntwzj .bottom{ text-align:center;}
+#qgsx #qgntwzj .wytw_btn{ width:69px; height:21px; border:0; background-position:-241px -9px; cursor:pointer; color:#fff; }
+
+#qgsx .sylist2{ overflow:hidden; zoom:1;}
+#qgsx .sylist2 li{ width:185px; float:left;}
+
+/*----------------------²©¿ÍÎ¢²©------------------*/
+#bkwb{ margin:0 auto; width:960px;}
+
+#bkwb .hdmode h2{ background-image:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title15.png);}
+
+#bkwb .mid{ width:375px; float:left; padding:15px 0 0 20px; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/bg5.png) 0 bottom repeat-x; }
+
+#bkwb .left .listtxt{ margin:5px 0 25px 15px;}
+
+#bkwb #wft .hd h2{ background-image:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title26.png);}
+#bkwb #wft .bd{ padding:15px 0 15px 15px;line-height:22px;}
+#bkwb #wft .pic{ float:left; border:1px solid #ddd; margin-right:10px;}
+#bkwb #wft .txt{ width:155px; float:left; color:#666; }
+#bkwb #wft .txt .ting{ color:#c5161d; margin-left:5px;}
+
+#bkwb #wft .txt2{ overflow:hidden; zoom:1; height:65px;}
+#bkwb #wft .wbtxt{ clear:both; padding-top:12px;}
+#bkwb #wft .wbtxt li{ padding-left:20px; background-position:-15px -457px;}
+#bkwb #wft .wbtxt li a{ color:#333; margin-right:10px;}
+#bkwb #wft .wbtxt li a:hover{color:#c00;}
+
+#bkwb .mid{ height:468px; overflow:hidden; zoom:1;}
+#bkwb .mid dl{ overflow:hidden; zoom:1; margin-bottom:15px; width:360px;}
+#bkwb .mid dt{ float:left; width:82px; height:82px; border:1px solid #ddd; text-indent:-999px;}
+#bkwb .mid dd{ float:right; width:241px; height:68px; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/bg7.png) no-repeat; padding:8px 12px 8px 18px; line-height:22px;}
+#bkwb .mid dd .ting{ color:#c5161d;}
+#bkwb .mid .p1 dt,#bkwb .mid .p2 dt,#bkwb .mid .p3 dt{ background-image:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/yulu.png); background-repeat:no-repeat;}
+#bkwb .mid .p1 dt{ background-position:0 0;}
+#bkwb .mid .p2 dt{ background-position:0 -82px;}
+#bkwb .mid .p3 dt{ background-position:0 -164px;}
+
+#bkwb .mid .ut{overflow:hidden; zoom:1; width:100%; height:167px; display:block;}
+#bkwb .mid .ut li{ width:100px; border:1px solid #ddd; background-color:#fff; float:left; color:#666; margin:0 20px 15px 2px; line-height:16px; display:inline; overflow:hidden;}
+#bkwb .mid .ut li img{ border-bottom:1px solid #ddd; margin-bottom:3px;}
+#bkwb .mid .ut h3{ float:left; color:#db7276; font-weight:700; font-size:14px; margin-left:3px;}
+#bkwb .mid .ut h3 a{color:#db7276; }
+#bkwb .mid .ut .ting{ float:right; color:#c5161d; margin-right:3px;}
+#bkwb .mid .ut p{ clear:both; padding:2px 5px 5px 5px;}
+
+#bkwb .right{ height:468px; margin-top:15px;}
+#bkwb .right ul{ margin:20px 0 0 15px; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/num3.png) no-repeat;}
+#bkwb .right li{ padding-left:30px; height:26px;}
+#bkwb .right li a{ color:#333;}
+#bkwb .right li a:hover{color:#c00;}
+
+#bkwb #wbph .hd h2{ background-position:50px -388px; padding-right:20px;}
+
+/*----------------------ÊÓ¾õÃ÷ÐÇ------------------*/
+#sjmx{ margin:0 auto; width:960px;}
+
+#sjmx .hdmode h2{ background-image:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title16.png);}
+
+#sjmx .right{ width:620px;}
+
+#sjmx #mxbg .hd h2{ background-image:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title27.png); text-indent:0; padding-left:14px;}
+#sjmx #mxbg .hd h2 a{ width:75px; height:21px; display:block; overflow:hidden; text-indent:-999em;}
+#sjmx #mxbg ul{ margin:15px 0 35px 15px; line-height:22px;}
+#sjmx #mxbg .bd a{ color:#333; margin-right:10px;}
+#sjmx #mxbg .bd a:hover{color:#c00;}
+#sjmx #mxbg .bd span{ margin-right:10px;}
+
+#sjmx #hbtt .hd{ background-color:#f6f6f6;}
+#sjmx #hbtt .hd h2{ background-image:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title28.png);text-indent:0; padding-left:14px;}
+#sjmx #hbtt .hd h2 a{ width:75px; height:21px; display:block; overflow:hidden; text-indent:-999em;}
+#sjmx #hbtt .nr{ padding:20px 0 0 15px; height:65px; overflow:hidden; zoom:1;}
+#sjmx #hbtt .pic{ float:left; margin-right:10px;}
+#sjmx #hbtt .pic img{ border:1px solid #ddd;}
+#sjmx #hbtt .txt{ width:165px; float:left; line-height:26px; overflow:hidden; zoom:1; line-height:22px;}
+#sjmx #hbtt .txt a{ color:#333; margin-right:5px; display:inline-block;}
+#sjmx #hbtt .txt a:hover{color:#c00;}
+#sjmx #hbtt .txt h4{ font-weight:700;}
+#sjmx #hbtt .bd{ padding-bottom:30px; height:190px;}
+
+#sjmx .right{ margin-top:15px; position:relative; width:620px; height:605px;}
+#sjmx .right li{ width:122px; float:left; text-align:center; line-height:30px; margin-right:43px; height:205px;}
+#sjmx .right li img{ border:1px solid #ddd; display:block;}
+#sjmx .right li a{ color:#333;}
+#sjmx .right li a:hover{color:#c00;}
+#sjmx .right li.last{ margin-right:0;}
+#sjmx .right .bigtu{ position:absolute; left:0; top:0;}
+#sjmx .right .bigtu span{ display:block; width:290px; text-indent:0.5em; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå";}
+#sjmx .right .bigtu img{ display:block;}
+#sjmx .right .w1{ position:absolute; right:0; top:0; width:290px;}
+#sjmx .right .w2{ position:absolute; left:0; top:408px;}
+#sjmx .right .pictxt a.infotxt{left:0; bottom:0; display:block; width:290px; text-indent:0.5em; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå";}
+
+/*----------------------ÊÓÆµ·ÃÌ¸------------------*/
+#spft{ margin:0 auto; width:960px;}
+
+#spft .hdmode h2{ background-image:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title17.png);}
+#spft .left .t1{ background:#f6f6f6 url(http://mat1.gtimg.com/lady/2011nvxingindex/images/leftsidebar_bg.png) no-repeat 0 -15px; margin:0; padding:0 0 0 15px;}
+#spft .left ul{ line-height:22px; padding:15px; background-color:#f6f6f6;}
+#spft .left li{ background-position:-467px -204px; padding-left:30px;}
+#spft .left li a{ color:#333;}
+#spft .left li a:hover{color:#c00;}
+#spft .left .pictxt{ height:180px;}
+
+#spft .mid{ width:390px; float:left; width:390px; margin-top:15px; height:320px; overflow:hidden;}
+#spft .mid li{margin:0 15px 15px 30px; float:left; text-align:center; line-height:30px; display:inline;}
+#spft .mid li span{ display:block; border:1px solid #ddd; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/jingdu_b.png) center bottom no-repeat; padding:3px 3px 14px; }
+#spft .mid li img{ display:block;}
+#spft .mid li a{ color:#333;}
+#spft .mid li a:hover{color:#c00;}
+
+#spft #jmhx{ height:340px;}
+#spft #jmhx ul{ width:230px; margin:0 auto;}
+#spft #jmhx li{ overflow:hidden; zoom:1; padding-top:15px;}
+#spft #jmhx li .pic{ float:left; margin-right:10px;}
+#spft #jmhx li .pic img{ border:1px solid #ddd;}
+#spft #jmhx li .txt{ float:left;  width:110px;}
+
+/*----------------------Ã½Ìå»î¶¯Ô­´´------------------*/
+#mthdyc{ margin:0 auto; width:960px;}
+
+#mthdyc .hdmode h2{ background-image:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title18.png);}
+
+#mthdyc .left{ line-height:22px;}
+#mthdyc .left .txt1{ position:relative;}
+#mthdyc .left dl{ position:relative; padding:15px 0 0 15px; height:45px; background-color:#f6f6f6;}
+#mthdyc .left dt{ font-size:24px; font-family:Arial, Helvetica, sans-serif; color:#b4151c; position:absolute;}
+#mthdyc .left dt span{ font-size:16px;}
+#mthdyc .left dd{ position:absolute; left:58px; border-left:1px solid #ddd; background-color:#f6f6f6; padding-left:10px;}
+#mthdyc .left dd h2{ font-size:14px; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå";}
+#mthdyc .left dd h3{ font-size:18px; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå";}
+#mthdyc .left dd a{ color:#333;}
+#mthdyc .left dd a:hover{color:#c00;}
+#mthdyc .left .txt1 span{ position:absolute; right:0; top:5px; font-size:14px; color:#806a59; font-weight:700;}
+#mthdyc .left .txt1 span a{color:#806a59; }
+#mthdyc .left .txt1 span a:hover{ color:#c00;}
+#mthdyc .left li a{ color:#333; margin-right:10px;}
+#mthdyc .left li a:hover{color:#c00;}
+#mthdyc .left li span{ margin-right:10px;}
+#mthdyc .left ul{ padding:12px 0 12px 15px; background-color:#f6f6f6;}
+#mthdyc .left  .yc{ background:#f6f6f6 url(http://mat1.gtimg.com/lady/2011nvxingindex/images/leftsidebar_bg.png) no-repeat 0 -15px; padding:0 0 0 15px; width:280px;}
+#mthdyc .left  .sj{ position:relative; background-color:#f6f6f6; height:180px; width:295px; margin:80px 0 0 0;}
+#mthdyc .left  .sj img{ position:absolute; top:-36px; right:0;}
+#mthdyc .left  .sj span{ top:-36px; right:0;}
+
+#mthdyc .mid{ width:395px; float:left;}
+#mthdyc .mid .txt3 { overflow:hidden; zoom:1; margin-left:20px;}
+#mthdyc .mid .txt3 span{ display:block; width:76px; height:24px; font-size:14px; color:#fff; line-height:24px; background-position:-160px -8px; text-align:center; float:left; margin-right:10px;}
+#mthdyc .mid .txt3 a{ font-size:18px; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; color:#c5161d; padding-top:5px; float:left;}
+#mthdyc .mid .dh{ margin-left:20px; line-height:30px;}
+#mthdyc .mid .dh a{ color:#333;}
+#mthdyc .mid .dh a:hover{color:#c00;}
+
+#mthdyc .mid .gz{ color:#666; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/bg5.png) repeat-x 0 bottom; line-height:30px; width:100%; overflow:hidden; zoom:1; margin-top:20px; height:150px; display:block;}
+#mthdyc .mid .gz li{ width:100px; border:1px solid #ddd; text-align:center; float:left; margin:0 7px 20px  20px; position:relative; background-color:#fff; display:inline;}
+#mthdyc .mid .gz .doing{ width:52px; height:52px; background-position:-435px -145px; position:absolute; right:0; top:0;}
+#mthdyc .mid .gz a{ color:#666;}
+#mthdyc .mid .gz img{ display:block;}
+
+#mthdyc #sshd{ clear:both; margin-left:20px; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/line1.png) center 0 no-repeat;}
+#mthdyc #sshd .hd{ background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/huidotline.png) repeat-x 0 21px; padding-top:15px; margin-bottom:5px;}
+#mthdyc #sshd .hd h2{ padding-right:10px; background-color:#fff; font-size:14px; font-weight:700; float:left;}
+#mthdyc #sshd .hd h2 a{ color:#333;}
+#mthdyc #sshd .hd h2 a:hover{color:#c00;}
+#mthdyc #sshd .hd .link{ padding-left:10px; background-color:#fff; float:right;}
+
+#mthdyc .mid .mod2{ margin-left:20px;}
+
+#mthdyc .mid .ut{overflow:hidden; zoom:1; margin-left:20px;}
+#mthdyc .mid .ut li{ width:100px; border:1px solid #ddd; background-color:#fff; float:left; color:#666; margin:0 20px 15px 2px; line-height:16px; display:inline; height:170px; background-color:#f6f6f6; overflow:hidden;}
+#mthdyc .mid .ut li img{ border-bottom:1px solid #ddd; margin-bottom:3px;}
+#mthdyc .mid .ut h3{ float:left; color:#db7276; font-weight:700; font-size:14px; margin-left:3px;}
+#mthdyc .mid .ut h3 a{color:#db7276; }
+#mthdyc .mid .ut .ting{ float:right; color:#c5161d; margin-right:3px;}
+#mthdyc .mid .ut p{ clear:both; padding:2px 5px;}
+
+#mthdyc .right{ height:685px; overflow:hidden;}
+#mthdyc .right .bd{ width:230px; margin:15px auto;}
+
+#mthdyc #zz dl{ overflow:hidden; zoom:1;}
+#mthdyc #zz dt{ float:left; margin-right:10px;}
+#mthdyc #zz dt img{ border:1px solid #ddd;}
+#mthdyc #zz dd{ float:left; width:90px; color:#666; padding-top:5px; line-height:20px;}
+#mthdyc #zz dd h3{ font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-size:18px; color:#333;}
+#mthdyc #zz dd h3 span{ color:#c5161d;}
+#mthdyc #zz dd h4 a{ color:#333; font-weight:700;}
+#mthdyc #zz ul{ clear:both; margin:10px auto; line-height:22px;}
+#mthdyc #zz dd h4 a:hover{color:#c00;}
+#mthdyc #zz ul a{ color:#333; }
+#mthdyc #zz ul a:hover{color:#c00;}
+#mthdyc #zz ul span{ margin:0 7px;}
+
+#mthdyc #zx .bd{ height:100px;}
+
+#mthdyc #wsl .hd{ background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/title2_line1.png) repeat-x 0 12px; overflow:hidden; zoom:1; width:230px; margin:0 auto;}
+#mthdyc #wsl .hd h2{ font-size:14px; background-color:#fff5f5; padding:0 10px; float:left; font-weight:700;}
+#mthdyc #wsl .hd h2 a{ color:#333;}
+#mthdyc #wsl .hd h2 a:hover{color:#c00;}
+#mthdyc #wsl dl{ overflow:hidden; zoom:1;}
+#mthdyc #wsl dt{ float:right; width:55px; text-align:center;}
+#mthdyc #wsl dt img{ background:#fff; border:1px solid #ddd; padding:1px; display:block; width:40px; margin:0 auto;}
+#mthdyc #wsl dt a{ color:#333;}
+#mthdyc #wsl dt a:hover{color:#c00;}
+#mthdyc #wsl dd{ float:left; border:1px solid #f5bebe; background-color:#fff; position:relative; width:158px; padding:5px 2px 5px 10px; margin-left:5px; color:#666;}
+#mthdyc #wsl dd .cur{ width:7px; height:13px; background-position:-41px -231px; position:absolute; top:10px; right:-6px; }
+#mthdyc #wsl .bd{ width:240px;}
+#mthdyc #wsl ul{ margin:15px 0 0 5px;}
+
+/*----------------------ÁªÏµ·½Ê½&ºÏ×÷»ï°é------------------*/
+#hzhb{ margin:20px auto 0; height:240px; background-color:#f1f1f1; border-top:1px solid #e2e2e2;}
+#hzhb .bd{ width:960px; margin:0 auto; overflow:hidden; zoom:1;}
+#hzhb .left{ width:315px; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/bg6.png) no-repeat right 10px; height:240px;}
+#hzhb .left h2{text-indent:-999em; }
+#hzhb .left p{ margin:150px 0 0 95px;}
+#hzhb .right{ width:560px; padding:35px 0 0 25px;}
+#hzhb .right h2{ margin-bottom:10px; background:url(http://mat1.gtimg.com/lady/2011nvxingindex/images/hzhb.png) no-repeat; height:20px; text-indent:-999em;}
+#hzhb .right h2 a{  color:#666;}
+#hzhb .right .bd a{ color:#333; margin-right:10px; display:inline-block;}
+#hzhb .right .bd a:hover{color:#c00;}
+#hzhb .right .bd{ color:#a5a5a5; width:560px; line-height:28px;}
+#hzhb .right .bd span{ margin-right:10px;}/*  |xGv00|9364fbab64286a59559ae2ad438e7135 */

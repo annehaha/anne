@@ -1,0 +1,17 @@
+.focusImg{width: 347px;height: 375px; overflow: hidden;  }
+.focusImg .showBox{width: 335px;height: 272px;overflow: hidden; margin-left: 6px; position: relative; }
+.focusImg .showBox .imgBox{}
+.focusImg .showBox img{width: 335px;height: 272px;overflow: hidden; border: 0px; position: absolute;top:0;left: 0; z-index: 0; display: none;  }
+.focusImg .slideBox{height: 75px;overflow: hidden; margin: 5px 0 0 2px; }
+.focusImg .slideBox div{float: left;height: 75px; overflow: hidden; }
+.focusImg .slideBox .btn_focusImg{width: 13px;overflow: hidden; background-repeat: no-repeat; background-position: 0 30px;cursor: pointer; }
+.focusImg .slideBox .left_focusImg{background-image: url("http://mat1.gtimg.com/gamezone/game_2011_nick/left_focus.gif");}
+.focusImg .slideBox .right_focusImg{background-image: url("http://mat1.gtimg.com/gamezone/game_2011_nick/right_focus.gif"); background-position: 1px 30px; }
+.focusImg .slideBox .listBox{width: 316px; position: relative; }
+.focusImg .slideBox .listBox .simgBox{clear: both;  position: absolute; overflow: hidden; width: 10000px; top: 0px; left: 0px; }
+.focusImg .slideBox .listBox .simgBox a{display: block; border: 0px; width: 75px;height: 70px; }
+.focusImg .slideBox .listBox .simgBox img{display: block;width: 75px;height: 70px;border: 0px;}
+.focusImg .slideBox .listBox .simgBox ul{margin: 0;padding: 0;overflow: hidden; height: 75px; display: block; float: left;  }
+.focusImg .slideBox .listBox .simgBox ul li{float: left; overflow: hidden; padding: 2px;width: 75px; height:70px;display: block; }
+.focusImg .slideBox .listBox .simgBox ul .here{background-color: #F3C03B;}
+/*  |xGv00|5e3d536046ca86cf85f65fa362c9fb00 */

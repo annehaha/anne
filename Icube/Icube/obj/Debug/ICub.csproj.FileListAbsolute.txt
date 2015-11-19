@@ -1,0 +1,73 @@
+C:\Users\Seven\Desktop\软件竞赛成员课表\最终版\ICube_15951\ICube\Icube\bin\Debug\MyCube.exe
+C:\Users\Seven\Desktop\软件竞赛成员课表\最终版\ICube_15951\ICube\Icube\bin\Debug\MyCube.pdb
+C:\Users\Seven\Desktop\软件竞赛成员课表\最终版\ICube_15951\ICube\Icube\bin\Debug\PlayerInformation.pdb
+C:\Users\Seven\Desktop\软件竞赛成员课表\最终版\ICube_15951\ICube\Icube\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Seven\Desktop\软件竞赛成员课表\最终版\ICube_15951\ICube\Icube\obj\Debug\Simple Styles.baml
+C:\Users\Seven\Desktop\软件竞赛成员课表\最终版\ICube_15951\ICube\Icube\obj\Debug\Window1.baml
+C:\Users\Seven\Desktop\软件竞赛成员课表\最终版\ICube_15951\ICube\Icube\obj\Debug\App.baml
+C:\Users\Seven\Desktop\软件竞赛成员课表\最终版\ICube_15951\ICube\Icube\obj\Debug\Window1.g.cs
+C:\Users\Seven\Desktop\软件竞赛成员课表\最终版\ICube_15951\ICube\Icube\obj\Debug\App.g.cs
+C:\Users\Seven\Desktop\软件竞赛成员课表\最终版\ICube_15951\ICube\Icube\obj\Debug\MyCube_MarkupCompile.cache
+C:\Users\Seven\Desktop\软件竞赛成员课表\最终版\ICube_15951\ICube\Icube\obj\Debug\MyCube_MarkupCompile.lref
+C:\Users\Seven\Desktop\软件竞赛成员课表\最终版\ICube_15951\ICube\Icube\obj\Debug\MyCube.g.resources
+C:\Users\Seven\Desktop\软件竞赛成员课表\最终版\ICube_15951\ICube\Icube\obj\Debug\MyCube.Properties.Resources.resources
+C:\Users\Seven\Desktop\软件竞赛成员课表\最终版\ICube_15951\ICube\Icube\obj\Debug\ICub.csproj.GenerateResource.Cache
+C:\Users\Seven\Desktop\软件竞赛成员课表\最终版\ICube_15951\ICube\Icube\obj\Debug\MyCube.exe
+C:\Users\Seven\Desktop\软件竞赛成员课表\最终版\ICube_15951\ICube\Icube\obj\Debug\MyCube.pdb
+C:\Documents and Settings\Administrator\桌面\ICube 整合版\Icube\obj\Debug\MyCube.exe
+C:\Documents and Settings\Administrator\桌面\ICube 整合版\Icube\obj\Debug\MyCube.pdb
+C:\Documents and Settings\Administrator\桌面\ICube 整合版\Icube\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\ICube 整合版\Icube\obj\Debug\Simple Styles.baml
+C:\Documents and Settings\Administrator\桌面\ICube 整合版\Icube\obj\Debug\App.baml
+C:\Documents and Settings\Administrator\桌面\ICube 整合版\Icube\obj\Debug\Window1.g.cs
+C:\Documents and Settings\Administrator\桌面\ICube 整合版\Icube\obj\Debug\App.g.cs
+C:\Documents and Settings\Administrator\桌面\ICube 整合版\Icube\obj\Debug\MyCube_MarkupCompile.cache
+C:\Documents and Settings\Administrator\桌面\ICube 整合版\Icube\obj\Debug\MyCube_MarkupCompile.lref
+C:\Documents and Settings\Administrator\桌面\ICube 整合版\Icube\obj\Debug\Window1.baml
+C:\Documents and Settings\Administrator\桌面\ICube 整合版\Icube\obj\Debug\MyCube.g.resources
+C:\Documents and Settings\Administrator\桌面\ICube 整合版\Icube\obj\Debug\MyCube.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\ICube 整合版\Icube\obj\Debug\ICub.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\桌面\ICube 整合版\Icube\bin\Debug\MyCube.exe
+C:\Documents and Settings\Administrator\桌面\ICube 整合版\Icube\bin\Debug\MyCube.pdb
+C:\Documents and Settings\Administrator\桌面\ICube 整合版\Icube\bin\Debug\PlayerInformation.pdb
+I:\ICube 整合版\Icube\obj\Debug\MyCube.exe
+I:\ICube 整合版\Icube\obj\Debug\MyCube.pdb
+I:\ICube 整合版\Icube\obj\Debug\ResolveAssemblyReference.cache
+I:\ICube 整合版\Icube\obj\Debug\Simple Styles.baml
+I:\ICube 整合版\Icube\obj\Debug\App.baml
+I:\ICube 整合版\Icube\obj\Debug\Window1.g.cs
+I:\ICube 整合版\Icube\obj\Debug\App.g.cs
+I:\ICube 整合版\Icube\obj\Debug\MyCube_MarkupCompile.cache
+I:\ICube 整合版\Icube\obj\Debug\MyCube_MarkupCompile.lref
+I:\ICube 整合版\Icube\obj\Debug\Window1.baml
+I:\ICube 整合版\Icube\obj\Debug\MyCube.g.resources
+I:\ICube 整合版\Icube\obj\Debug\MyCube.Properties.Resources.resources
+I:\ICube 整合版\Icube\obj\Debug\ICub.csproj.GenerateResource.Cache
+I:\ICube 整合版\Icube\bin\Debug\MyCube.exe
+I:\ICube 整合版\Icube\bin\Debug\MyCube.pdb
+I:\ICube 整合版\Icube\bin\Debug\PlayerInformation.pdb
+C:\Users\Seven\Desktop\软件竞赛成员课表\ICube 整合版\Icube\obj\Debug\MyCube.exe
+C:\Users\Seven\Desktop\软件竞赛成员课表\ICube 整合版\Icube\obj\Debug\MyCube.pdb
+G:\ICube 整合版\Icube\obj\Debug\MyCube.exe
+G:\ICube 整合版\Icube\obj\Debug\MyCube.pdb
+E:\ICube 整合版\Icube\obj\Debug\MyCube.exe
+E:\ICube 整合版\Icube\obj\Debug\MyCube.pdb
+G:\ICube 整合版\Icube\obj\Debug\ResolveAssemblyReference.cache
+G:\ICube 整合版\Icube\obj\Debug\Simple Styles.baml
+G:\ICube 整合版\Icube\obj\Debug\App.baml
+G:\ICube 整合版\Icube\obj\Debug\Window1.g.cs
+G:\ICube 整合版\Icube\obj\Debug\App.g.cs
+G:\ICube 整合版\Icube\obj\Debug\MyCube_MarkupCompile.cache
+G:\ICube 整合版\Icube\obj\Debug\MyCube_MarkupCompile.lref
+G:\ICube 整合版\Icube\obj\Debug\Window1.baml
+G:\ICube 整合版\Icube\obj\Debug\MyCube.g.resources
+G:\ICube 整合版\Icube\obj\Debug\MyCube.Properties.Resources.resources
+G:\ICube 整合版\Icube\obj\Debug\ICub.csproj.GenerateResource.Cache
+C:\Users\apple\Documents\学习\c#\ICube 整合版\Icube\obj\Debug\MyCube.pdb
+C:\Users\apple\Documents\学习\c#\ICube 整合版\Icube\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\apple\Documents\学习\c#\ICube 整合版\Icube\obj\Debug\Simple Styles.baml
+C:\Users\apple\Documents\学习\c#\ICube 整合版\Icube\obj\Debug\App.baml
+C:\Users\apple\Documents\学习\c#\ICube 整合版\Icube\obj\Debug\Window1.g.cs
+C:\Users\apple\Documents\学习\c#\ICube 整合版\Icube\obj\Debug\App.g.cs
+C:\Users\apple\Documents\学习\c#\ICube 整合版\Icube\obj\Debug\MyCube_MarkupCompile.cache
+C:\Users\apple\Documents\学习\c#\ICube 整合版\Icube\obj\Debug\MyCube_MarkupCompile.lref

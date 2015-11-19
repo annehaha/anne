@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data xmlns="">
+  <Operation Name="文件" Gesture="F">
+    <Operation Name="打开文件" Gesture="Control+Y"/>
+    <Operation Name="打开文件夹" Gesture="Control+C"/>
+  </Operation>
+  <Operation Name="播放模式" Gesture="P">
+    <Operation Name="随机播放" Gesture="Control+V"/>
+    <Operation Name="顺序播放" Gesture="Control+N"/>
+    <Operation Name="单曲播放" Gesture="Control+S"/>
+    <Operation Name="单曲循环" Gesture="Control+R"/>
+    <Operation Name="循环播放" Gesture="Control+O"/>
+  </Operation>  
+  <Operation Name="删除" Gesture="D">
+    <Operation Name="清空列表" Gesture="Control+L"/>
+    <Operation Name="删除单曲" Gesture="Control+D"/> 
+  </Operation>
+</data>
